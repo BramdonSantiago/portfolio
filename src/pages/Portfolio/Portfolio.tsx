@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom';
-
 function Portfolio() {
     return (
         <div className='page-content'>
