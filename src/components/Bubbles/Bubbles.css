@@ -1,0 +1,54 @@
+/* .bubble {
+    position: absolute;
+    bottom: -100px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    animation: rise 10s linear infinite;
+}
+
+  @keyframes rise {
+    0% {
+      transform: translateY(0) scale(1);
+      opacity: 0;
+    }
+    10% {
+      opacity: 0.4;
+    }
+    100% {
+      transform: translateY(-110vh) scale(1.2);
+      opacity: 0;
+    }
+  } */
+
+  .bubble-bg {
+    position: fixed;
+    width: calc(100% - 7rem);
+    margin-left: auto;
+    height: 100dvh;
+    overflow: hidden;
+    top: 0;
+    left: 7rem;
+    z-index: -2;
+  }
+  
+  .bubble {
+    position: absolute;
+    bottom: -100px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    animation: rise 10s linear infinite;
+  }
+  
+  @keyframes rise {
+    0% {
+      transform: translateY(0) scale(1);
+      opacity: 0;
+    }
+    10% {
+      opacity: 0.4;
+    }
+    100% {
+      transform: translateY(-110vh) scale(1.2);
+      opacity: 0;
+    }
+  }
