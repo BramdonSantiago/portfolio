@@ -1,19 +1,13 @@
-h1 {
-    font-size: 4rem;
-    margin-bottom: 0;
-    span {
-        color: #4db8ff;
+.content-title-main {
+    h2 {
+        font-size: 1.250rem;
     }
 }
 
-h2 {
-    font-size: 3rem;
-}
 
 .social-media {
     margin-top: 3rem;
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 1rem;
 }
@@ -46,4 +40,14 @@ h2 {
         font-size: 22px;
     }
 }
+
+
+@media(min-width: 1200px) {
+    .content-title-main {
+        h2 {
+            font-size: 3rem;
+        }
+    }
+}
+
 

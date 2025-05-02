@@ -1,0 +1,102 @@
+.info-data {
+    h3 {
+        font-size: 1.6rem;
+        border-bottom: 2px solid #FFF;
+        padding-bottom: 0.5rem;
+    }
+    span {
+        color: #a5b6c2;
+    }
+}
+
+
+.singular-info-tag {
+    padding: 1rem;
+    min-height: 10rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FFF;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    .quantity {
+        font-size: 2.250rem;
+        font-weight: 700;
+    }
+    .description {
+        font-weight: 300;
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+}
+
+.singular-skill {
+    width: 100%;
+    margin-bottom: 2rem;
+    .technology-experience {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0.5rem;
+        font-weight: 300;
+        .technology {
+            color: #a5b6c2;
+        }
+    }
+    progress {
+        display: block;
+        width: 100%;
+        -webkit-appearance: none;
+        appearance: none;
+    }
+    progress::-webkit-progress-bar {
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+        overflow: hidden;
+    }
+    progress::-webkit-progress-value {
+        background-color: #4db8ff;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .personal-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .info-tags {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .singular-info-tag { 
+        margin-bottom: 0;
+    }
+
+    .skills {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 1rem;
+        .singular-skill {
+            width: calc(50% - 1rem);
+            margin-bottom: 1rem;
+        }
+    }
+}

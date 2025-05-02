@@ -1,0 +1,15 @@
+.lets-keep-touch {
+    h3 {
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid #FFF;
+    }
+    span {
+        color: #a5b6c2;
+    }
+}
+
+@media(min-width: 1200px) {
+    .contact-data {
+        width: 40%;
+    }
+}

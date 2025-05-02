@@ -1,5 +1,7 @@
 import About from '../pages/About/About';
 import Profile from '../pages/Profile/Profile';
+import Portfolio from '../pages/Portfolio/Portfolio';
+import Contact from '../pages/Contact/Contact';
 
 const routes = [
     {
@@ -7,16 +9,20 @@ const routes = [
         element: <About />,
     },
     {
+        path: 'portfolio',
+        element: <About />,
+    },
+    {
         path: '/profile',
         element: <Profile />,
     },
     {
-        path: '/portfolio',
-        element: <Profile />,
+        path: '/projects',
+        element: <Portfolio />,
     },
     {
         path: '/contact',
-        element: <Profile />,
+        element: <Contact />,
     },
 ];
 
