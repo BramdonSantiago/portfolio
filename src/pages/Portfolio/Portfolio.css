@@ -1,5 +1,7 @@
-.container-portfolio {
-    width: 100%;
+.custom-container {
+    &.container-portfolio {
+        width: 100%;
+    }
 }
 
 .swiper {
@@ -20,7 +22,9 @@
 
 
 @media(min-width: 576px) {
-    .container-portfolio {
-        width: 85%;
-    }
+    .custom-container {
+        &.container-portfolio {
+            width: 85%;
+        }
+    }    
 }
