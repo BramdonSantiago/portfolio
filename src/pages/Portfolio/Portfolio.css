@@ -1,3 +1,7 @@
+.container-portfolio {
+    width: 100%;
+}
+
 .swiper {
     .swiper-slide {
         text-align: center;
@@ -11,5 +15,12 @@
         .content-btn {
             margin-top: 3rem;
         }
+    }
+}
+
+
+@media(min-width: 576px) {
+    .container-portfolio {
+        width: 85%;
     }
 }
