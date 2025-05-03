@@ -14,7 +14,7 @@ function Contact() {
                         <p><span>Phone:</span> (+52) 4381338561</p>
                         <div className='gap-example'>
                             <audio controls>
-                                <source src="https://bramdonsantiago.github.io/portfolio/video/audio-3.mp3" type="audio/mp3" />
+                                <source src="https://bramdonsantiago.github.io/portfolio/audio/audio-3.mp3" type="audio/mp3" />
                             </audio>
                         </div>
                     </div>
