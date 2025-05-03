@@ -17,11 +17,11 @@ function Portfolio() {
                 <Swiper
                     modules={[Autoplay]}
                     autoplay={{
-                        delay: 6000,
+                        delay: 5000,
                         disableOnInteraction: false,
                     }}
                     spaceBetween={25}
-                    slidesPerView={1.3}
+                    slidesPerView={1.5}
                     breakpoints={{
                         768: {
                             slidesPerView: 2.3,
