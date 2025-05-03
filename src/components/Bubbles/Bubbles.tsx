@@ -13,7 +13,7 @@ const BubbleBackground: React.FC = () => {
             const bubble = document.createElement('div');
             bubble.className = 'bubble';
 
-            const size = Math.random() * 54 + 10;
+            const size = Math.random() * 84 + 6;
             bubble.style.width = `${size}px`;
             bubble.style.height = `${size}px`;
             bubble.style.left = `${Math.random() * 100}vw`;

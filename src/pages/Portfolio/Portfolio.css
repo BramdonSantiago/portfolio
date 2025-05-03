@@ -1,0 +1,15 @@
+.swiper {
+    .swiper-slide {
+        text-align: center;
+        h3 {
+            margin-top: 1rem;
+            font-weight: 100;
+        }
+        img {
+            width: 100%;
+        }
+        .content-btn {
+            margin-top: 3rem;
+        }
+    }
+}
