@@ -4,6 +4,7 @@
         border-bottom: 2px solid #FFF;
         padding-bottom: 0.5rem;
     }
+
     span {
         color: #a5b6c2;
     }
@@ -25,10 +26,12 @@
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+
     .quantity {
         font-size: 2.250rem;
         font-weight: 700;
     }
+
     .description {
         font-weight: 300;
         margin-top: 1rem;
@@ -39,22 +42,26 @@
 .singular-skill {
     width: 100%;
     margin-bottom: 2rem;
+
     .technology-experience {
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin-bottom: 0.5rem;
         font-weight: 300;
+
         .technology {
             color: #a5b6c2;
         }
     }
+
     progress {
         display: block;
         width: 100%;
         -webkit-appearance: none;
         appearance: none;
     }
+
     progress::-webkit-progress-bar {
         border-radius: 50px;
         -webkit-border-radius: 50px;
@@ -63,6 +70,7 @@
         -o-border-radius: 50px;
         overflow: hidden;
     }
+
     progress::-webkit-progress-value {
         background-color: #4db8ff;
         border-radius: 50px;
@@ -73,19 +81,132 @@
     }
 }
 
+.timeline {
+    .card {
+        position: relative;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .card:nth-child(odd) {
+        padding: 2rem 0 2rem 2rem;
+    }
+    
+    .card:nth-child(even) {
+        padding: 2rem 2rem 2rem 0;
+    }
+    
+    .card::before {
+        content: "";
+        position: absolute;
+        width: 50%;
+        border: solid #4db8ff;
+        z-index: -2;
+    }
+    
+    .card:nth-child(odd)::before {
+        left: 0px;
+        /* top: -4.5px;
+        bottom: -4.5px; */
+        top: 0;
+        bottom: 0;
+        border-width: 5px 0 5px 5px;
+        border-radius: 50px 0 0 50px;
+    }
+    
+    /* @media only screen and (max-width: 400px) {
+        .card:nth-child(odd)::before {
+            top: -5px;
+            bottom: -5px;
+        }
+    } */
+    
+    .card:nth-child(even)::before {
+        right: 0;
+        top: -5px;
+        bottom: -5px;
+        border-width: 5px 5px 5px 0;
+        border-radius: 0 50px 50px 0;
+    }
+    
+    .card:first-child::before {
+        border-top: 0;
+        border-top-left-radius: 0;
+    }
+    
+    .card:last-child:nth-child(odd)::before {
+        border-bottom: 0;
+        border-bottom-left-radius: 0;
+    }
+    
+    .card:last-child:nth-child(even)::before {
+        border-bottom: 0;
+        border-bottom-right-radius: 0;
+    }
+    
+    .info {
+        display: flex;
+        flex-direction: column;
+        background: #0c1825;
+        color: #a5b6c2;
+        padding: 1rem;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        .company-name {
+            color: #FFF;
+        }
+    }
+    
+    .title {
+        color: #4db8ff;
+        position: relative;
+    }
+    
+    .title::before {
+        content: "";
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        background: white;
+        border-radius: 999px;
+        border: 3px solid #4db8ff;
+    }
+    
+    .card:nth-child(even)>.info>.title,
+    .card:nth-child(even)>.info>.company-name {
+        text-align: right;
+    }
+    
+    .card:nth-child(odd)>.info>.title::before {
+        left: -55px;
+        top: 2px;
+    }
+    
+    .card:nth-child(even)>.info>.title::before {
+        right: -55px;
+        top: 2px;
+    }
+}
+
+
 @media(min-width: 1200px) {
     .personal-info {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
+
     .info-tags {
         display: flex;
         align-items: center;
         gap: 1rem;
     }
 
-    .singular-info-tag { 
+    .singular-info-tag {
         margin-bottom: 0;
     }
 
@@ -94,9 +215,16 @@
         justify-content: space-between;
         flex-wrap: wrap;
         gap: 1rem;
+
         .singular-skill {
             width: calc(50% - 1rem);
             margin-bottom: 1rem;
+        }
+    }
+
+    .timeline {
+        .card {
+            max-width: 75%;
         }
     }
 }

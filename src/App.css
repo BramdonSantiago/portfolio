@@ -21,7 +21,10 @@
 
 
 .section {
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
+    &:last-child {
+        margin-bottom: 0;
+    }
 }
 
 .content-title-main {
@@ -74,6 +77,10 @@
 
 
 @media(min-width: 1200px) {
+    .page-content {
+        padding-bottom: 5rem;
+    }
+
     .custom-container {
         padding-left: 7rem;
     }
