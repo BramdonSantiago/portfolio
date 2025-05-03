@@ -19,7 +19,7 @@ function Portfolio() {
                 >
                     <SwiperSlide>
                         {/* <Link to="/"> */}
-                            <img src="img/tierra-mockup.png" alt="" loading='lazy' />
+                            <img src="https://bramdonsantiago.github.io/portfolio/img/tierra-mockup.png" alt="" loading='lazy' />
                             <h3>Tierra a la vista</h3>
                             <div className='content-btn'>
                                 <a href="https://tierravista.iridian.co/es" target='_blank' className='btn btn-outline-terteary'>Visit project</a>
@@ -28,7 +28,7 @@ function Portfolio() {
                     </SwiperSlide>
                     <SwiperSlide>
                         {/* <Link to="/"> */}
-                            <img src="img/heel-mockup.png" alt="" loading='lazy' />
+                            <img src="https://bramdonsantiago.github.io/portfolio/img/heel-mockup.png" alt="" loading='lazy' />
                             <h3>Farmacia virtual Heel</h3>
                             <div className='content-btn'>
                                 <a href="https://redisenofarmacia.iridian.co/" target='_blank' className='btn btn-outline-terteary'>Visit project</a>
@@ -37,7 +37,7 @@ function Portfolio() {
                     </SwiperSlide>
                     <SwiperSlide>
                         {/* <Link to="/"> */}
-                            <img src="img/rifu-mockup.png" alt="" loading='lazy' />
+                            <img src="https://bramdonsantiago.github.io/portfolio/img/rifu-mockup.png" alt="" loading='lazy' />
                             <h3>Rifeo</h3>
                             <div className='content-btn'>
                                 <a href="https://rifeo.co/" target='_blank' className='btn btn-outline-terteary'>Visit project</a>
