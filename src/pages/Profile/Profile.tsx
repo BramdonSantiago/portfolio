@@ -24,7 +24,7 @@ function Profile() {
                             </div>
                             <div className="singular-info-tag">
                                 <span className='quantity'><span className='plus-sign'>+</span> 40</span>
-                                <h3 className='description'>Professional Projects</h3>
+                                <h3 className='description'>Professional projects</h3>
                             </div>
                             <div className="singular-info-tag">
                                 <span className='quantity'><span className='plus-sign'>+</span> 1500</span>
