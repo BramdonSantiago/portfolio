@@ -14,17 +14,15 @@ function App() {
         <Bubbles />
       </div>
 
-
-      <Routes>
-        {routes.map((route, index) => (
-          <Route 
-            key={index} 
-            path={route.path} 
-            element={route.element} 
-          />
-        ))}
-      </Routes>
-      
+        <Routes>
+          {routes.map((route, index) => (
+            <Route
+              key={index}
+              path={route.path}
+              element={route.element}
+            />
+          ))}
+        </Routes>
     </>
   )
 }

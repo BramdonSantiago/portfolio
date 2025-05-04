@@ -8,7 +8,7 @@ function Navbar() {
                 <img src="img/profile.jpg" alt="" />
             </div>
             <div className='navigation'>
-                <NavLink to="/portfolio" className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>
+                <NavLink to="/about" className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>
                     <i className='fa-solid fa-house'></i>
                 </NavLink>
                 <NavLink to="/profile" className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>

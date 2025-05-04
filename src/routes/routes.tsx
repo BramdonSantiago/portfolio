@@ -9,7 +9,7 @@ const routes = [
         element: <About />,
     },
     {
-        path: 'portfolio',
+        path: '/about',
         element: <About />,
     },
     {
