@@ -36,11 +36,11 @@ function About() {
                     <a href='https://www.linkedin.com/in/bramdonsantiago' target='_blank' className='singular-social-media'>
                         <i className='fa-brands fa-linkedin-in'></i>
                     </a>
-                    <a href='https://github.com/BramdonSantiago' target='_blank' className='singular-social-media'>
-                        <i className='fa-brands fa-github'></i>
-                    </a>
                     <a href='https://wa.me/+524381338561?text=Hola, Bramdon. ¿Cómo estás?, podriamos tener una entrevista' target='_blank' className='singular-social-media'>
                         <i className='fa-brands fa-whatsapp'></i>
+                    </a>
+                    <a href='https://github.com/BramdonSantiago' target='_blank' className='singular-social-media'>
+                        <i className='fa-brands fa-github'></i>
                     </a>
                 </div>
                 <div className='btn-cv-content'>
