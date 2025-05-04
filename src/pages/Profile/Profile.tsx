@@ -114,7 +114,7 @@ function Profile() {
                     <div className='content-title-main'>
                         <h2 className='title-main text-center'><span>Cover</span> letter</h2>
                     </div>
-                    <p>I'm a front-end developer with 5 years of experience creating modern, accessible, and user-experience-focused interfaces. I work primarily with Angular and Ionic, specializing in developing web and mobile apps that not only work well, but also feel good.</p>
+                    <p>I'm a front-end developer with 5 years of experience creating modern, accessible, and user-experience-focused interfaces. I work primarily with Angular, specializing in developing web and hybrid mobile apps for Android/iOS that not only work well, but also feel good.</p>
                     <p>I'm passionate about building functional and clean solutions, collaborating with multidisciplinary teams, and staying on top of best practices and new tools. Although I'm not a designer, I have a keen eye for visual details and enjoy turning ideas into powerful and engaging digital experiences.</p>
                     <p>
                         I've worked with API integration and a variety of modern tools from the front-end ecosystem. I'm interested in participating in projects that represent a technical challenge and provide real positive value to people.</p>
