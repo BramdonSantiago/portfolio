@@ -23,11 +23,11 @@ function Profile() {
                                 <h3 className='description'>Years of experience</h3>
                             </div>
                             <div className="singular-info-tag">
-                                <span className='quantity'>+ 40</span>
+                                <span className='quantity'><span className='plus-sign'>+</span> 40</span>
                                 <h3 className='description'>Professional Projects</h3>
                             </div>
                             <div className="singular-info-tag">
-                                <span className='quantity'>+ 1500</span>
+                                <span className='quantity'><span className='plus-sign'>+</span> 1500</span>
                                 <h3 className='description'>Cups of coffee drunk</h3>
                             </div>
                         </div>

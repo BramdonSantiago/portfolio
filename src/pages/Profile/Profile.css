@@ -37,6 +37,9 @@
         margin-top: 1rem;
         margin-bottom: 0;
     }
+    .plus-sign {
+        color: #4db8ff;
+    }
 }
 
 .singular-skill {
