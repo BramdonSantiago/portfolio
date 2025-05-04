@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <nav>
             <div className='img-profile'>
-                <img src="img/profile.jpg" alt="" />
+                <img src="https://bramdonsantiago.github.io/portfolio/img/profile.jpg" alt="" />
             </div>
             <div className='navigation'>
                 <NavLink to="/about" className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>
