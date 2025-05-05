@@ -1,0 +1,25 @@
+.ballfollower {
+    position: fixed;
+    width: 48px;
+    height: 48px;
+    /* background-color: #4db8ff;
+    box-shadow: 0 0 40px 0 #4db8ff; */
+    background-color: #0c1825;
+    box-shadow: 0 0 40px 0 #0c1825;
+    pointer-events: none;
+    z-index: -2;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transition: width 0.3s ease;
+    -webkit-transition: width 0.3s ease;
+    -moz-transition: width 0.3s ease;
+    -ms-transition: width 0.3s ease;
+    -o-transition: width 0.3s ease;
+    &.small {
+        width: 8px;
+        height: 8px;
+    }
+}
