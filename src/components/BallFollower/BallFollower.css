@@ -1,13 +1,12 @@
 .ballfollower {
     position: fixed;
-    width: 48px;
-    height: 48px;
-    /* background-color: #4db8ff;
-    box-shadow: 0 0 40px 0 #4db8ff; */
-    background-color: #0c1825;
-    box-shadow: 0 0 40px 0 #0c1825;
+    width: 64px;
+    height: 64px;
+    background-color: #4db8ff;
+    box-shadow: 0 0 40px 0 #4db8ff;
+    mix-blend-mode: difference;
     pointer-events: none;
-    z-index: -2;
+    z-index: 2;
     border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
@@ -21,5 +20,6 @@
     &.small {
         width: 8px;
         height: 8px;
+        z-index: -2;
     }
 }

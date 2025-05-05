@@ -11,7 +11,7 @@ const BallFollower = () => {
             setPosition({ x: e.clientX, y: e.clientY });
 
             const el = document.elementFromPoint(e.clientX, e.clientY);
-            setSmall(el?.tagName.toLowerCase() === 'a');
+            setSmall(el?.tagName.toLowerCase() === 'a' || el?.tagName.toLowerCase() === 'img' || el?.tagName.toLowerCase() === 'audio');
         };
 
         window.addEventListener('mousemove', handleMouseMove);
