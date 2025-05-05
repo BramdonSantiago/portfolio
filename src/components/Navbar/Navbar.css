@@ -1,4 +1,5 @@
 nav {
+    /* border-top: 2px solid #dddddd31; */
     position: fixed;
     padding: 1rem;
     bottom: 0;
@@ -8,6 +9,7 @@ nav {
     align-items: center;
     z-index: 2;
     background-color: #0c1825;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.1);
     .navigation {
         display: flex;
         gap: 1rem;
@@ -74,6 +76,8 @@ ul {
         top: 0;
         width: 7rem;
         height: 100dvh;
+        border-top: 0;
+        box-shadow: none;
         border-right: 2px solid #dddddd31;
         flex-direction: column;
         background-color: transparent;
