@@ -6,7 +6,7 @@ function Profile() {
             <div className="custom-container">
                 <div className='section'>
                     <div className='content-title-main'>
-                        <h1 className='title-main text-center'>About <span>me</span></h1>
+                        <h1 className='title-main text-center'>ABOUT <span>ME</span></h1>
                     </div>
                     <div className="personal-info">
                         <div className="info-data">
@@ -35,7 +35,7 @@ function Profile() {
                 </div>
                 <section className='section'>
                     <div className='content-title-main'>
-                        <h2 className='title-main text-center'><span>My</span> skills</h2>
+                        <h2 className='title-main text-center'><span>MY</span> SKILLS</h2>
                     </div>
                     <div className='skills'>
                         <div className='singular-skill'>
@@ -112,7 +112,7 @@ function Profile() {
                 </section>
                 <section className='section'>
                     <div className='content-title-main'>
-                        <h2 className='title-main text-center'><span>Cover</span> letter</h2>
+                        <h2 className='title-main text-center'><span>COVER</span> LETTER</h2>
                     </div>
                     <p>I'm a front-end developer with 5 years of experience creating modern, accessible, and user-experience-focused interfaces. I work primarily with Angular, specializing in developing web and hybrid mobile apps for Android/iOS that not only work well, but also feel good.</p>
                     <p>I'm passionate about building functional and clean solutions, collaborating with multidisciplinary teams, and staying on top of best practices and new tools. Although I'm not a designer, I have a keen eye for visual details and enjoy turning ideas into powerful and engaging digital experiences.</p>
@@ -121,7 +121,7 @@ function Profile() {
                 </section>
                 <section className='section'>
                     <div className='content-title-main'>
-                        <h2 className='title-main text-center'><span>My</span> experience</h2>
+                        <h2 className='title-main text-center'><span>MY</span> EXPERIENCE</h2>
                     </div>
                     <div className="timeline">
                         <div className="outer">

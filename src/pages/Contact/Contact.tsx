@@ -5,7 +5,7 @@ function Contact() {
         <div className='page-content'>
             <div className="custom-container">
                 <div className='content-title-main'>
-                    <h1 className='title-main text-center'>Contact <span>me</span></h1>
+                    <h1 className='title-main text-center'>CONTACT <span>ME</span></h1>
                 </div>
                 <div className="contact-data">
                     <div className='lets-keep-touch'>

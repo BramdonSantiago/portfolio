@@ -12,7 +12,7 @@ function Portfolio() {
         <div className='page-content'>
             <div className="custom-container container-portfolio">
                 <div className='content-title-main'>
-                    <h1 className='title-main text-center'><span>Latest</span> projects</h1>
+                    <h1 className='title-main text-center'><span>LATEST</span> PROJECTS</h1>
                 </div>
                 <Swiper
                     modules={[Autoplay]}
