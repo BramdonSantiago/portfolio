@@ -3,9 +3,12 @@ import './Portfolio.css';
 // import { Link } from 'react-router-dom';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay } from 'swiper/modules';
+import { Autoplay, EffectCoverflow } from 'swiper/modules';
+
 // @ts-ignore
 import 'swiper/css';
+// @ts-ignore
+import 'swiper/css/effect-coverflow';
 
 function Portfolio() {
     return (
@@ -15,20 +18,25 @@ function Portfolio() {
                     <h1 className='title-main text-center'><span>LATEST</span> PROJECTS</h1>
                 </div>
                 <Swiper
-                    modules={[Autoplay]}
+                    modules={[Autoplay, EffectCoverflow]}
                     autoplay={{
                         delay: 5000,
                         disableOnInteraction: false,
                     }}
+                    effect = {'coverflow'}
+                    coverflowEffect={{
+                        rotate: 0,
+                        stretch: 0,
+                        depth: 400,
+                        modifier: 1,
+                        slideShadows: false,
+                    }}
+                    centeredSlides={true}
+                    slidesPerView={1.3}
                     spaceBetween={25}
-                    slidesPerView={1.5}
                     breakpoints={{
-                        768: {
-                            slidesPerView: 2.3,
-                            spaceBetween: 25,
-                        },
                         1200: {
-                            slidesPerView: 3,
+                            slidesPerView: 2.3,
                             spaceBetween: 25,
                         },
                     }}
