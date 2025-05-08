@@ -54,7 +54,7 @@ function Profile() {
                         </div>
                         <div className='singular-skill'>
                             <div className='technology-experience'>
-                                <label className='technology'>Javascript</label>
+                                <label className='technology'>JavaScript</label>
                                 <span className='experience'>High experience</span>
                             </div>
                             <progress max="100" value="100"></progress>
@@ -96,14 +96,14 @@ function Profile() {
                         </div>
                         <div className='singular-skill'>
                             <div className='technology-experience'>
-                                <label className='technology'>Git</label>
+                                <label className='technology'>Symfony</label>
                                 <span className='experience'>High experience</span>
                             </div>
                             <progress max="100" value="100"></progress>
                         </div>
                         <div className='singular-skill'>
                             <div className='technology-experience'>
-                                <label className='technology'>Symfony</label>
+                                <label className='technology'>Git</label>
                                 <span className='experience'>High experience</span>
                             </div>
                             <progress max="100" value="100"></progress>
