@@ -51,7 +51,27 @@ function Profile() {
                         <div className='singular-skill'>
                             <div className='technology-experience'>
                                 <div className='technology'>
-                                    <label className='technology'>CSS/Sass</label>
+                                    <label className='technology'>CSS (Flexbox/Grid, responsive and animations)</label>
+                                    <p>5 years experience</p>
+                                </div>
+                                <span className='experience'>High experience</span>
+                            </div>
+                            <progress max="100" value="100"></progress>
+                        </div>
+                        <div className='singular-skill'>
+                            <div className='technology-experience'>
+                                <div className='technology'>
+                                    <label className='technology'>CSS Frameworks (Bootstrap, Tailwind, Bulma)</label>
+                                    <p>5 years experience</p>
+                                </div>
+                                <span className='experience'>High experience</span>
+                            </div>
+                            <progress max="100" value="100"></progress>
+                        </div>
+                        <div className='singular-skill'>
+                            <div className='technology-experience'>
+                                <div className='technology'>
+                                    <label className='technology'>Sass (SCSS Syntax/Indented Syntax)</label>
                                     <p>5 years experience</p>
                                 </div>
                                 <span className='experience'>High experience</span>
@@ -71,16 +91,6 @@ function Profile() {
                         <div className='singular-skill'>
                             <div className='technology-experience'>
                                 <div className='technology'>
-                                    <label className='technology'>Angular (Angular 12 - Angular 19)</label>
-                                    <p>4 years experience</p>
-                                </div>
-                                <span className='experience'>High experience</span>
-                            </div>
-                            <progress max="100" value="100"></progress>
-                        </div>
-                        <div className='singular-skill'>
-                            <div className='technology-experience'>
-                                <div className='technology'>
                                     <label className='technology'>TypeScript</label>
                                     <p>4 years experience</p>
                                 </div>
@@ -91,7 +101,7 @@ function Profile() {
                         <div className='singular-skill'>
                             <div className='technology-experience'>
                                 <div className='technology'>
-                                    <label className='technology'>Ionic (Ionic 5 - Ionic 8) [Cordova/Capacitor]</label>
+                                    <label className='technology'>Angular (Angular 12 - Angular 19)</label>
                                     <p>4 years experience</p>
                                 </div>
                                 <span className='experience'>High experience</span>
@@ -111,8 +121,8 @@ function Profile() {
                         <div className='singular-skill'>
                             <div className='technology-experience'>
                                 <div className='technology'>
-                                    <label className='technology'>CSS Frameworks (Bootstrap, Tailwind, Bulma)</label>
-                                    <p>5 years experience</p>
+                                    <label className='technology'>Ionic (Ionic 5 - Ionic 8) [Cordova/Capacitor]</label>
+                                    <p>4 years experience</p>
                                 </div>
                                 <span className='experience'>High experience</span>
                             </div>
@@ -127,6 +137,16 @@ function Profile() {
                                 <span className='experience'>High experience</span>
                             </div>
                             <progress max="100" value="100"></progress>
+                        </div>
+                        <div className='singular-skill'>
+                            <div className='technology-experience'>
+                                <div className='technology'>
+                                    <label className='technology'>Unit test (Jasmine/Karma → Jest)</label>
+                                    <p>1 year experience</p>
+                                </div>
+                                <span className='experience'>Low experience</span>
+                            </div>
+                            <progress max="100" value="25"></progress>
                         </div>
                         <div className='singular-skill'>
                             <div className='technology-experience'>
