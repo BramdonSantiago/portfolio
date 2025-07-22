@@ -142,7 +142,7 @@ function Profile() {
                             <div className='technology-experience'>
                                 <div className='technology'>
                                     <label>Consumption of REST APIs</label>
-                                    <p>4 year experience</p>
+                                    <p>4 years experience</p>
                                 </div>
                                 <span className='experience'>High experience</span>
                             </div>
