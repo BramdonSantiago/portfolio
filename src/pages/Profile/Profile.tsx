@@ -41,7 +41,7 @@ function Profile() {
                         <div className='singular-skill'>
                             <div className='technology-experience'>
                                 <div className='technology'>
-                                    <label className='technology'>HTML</label>
+                                    <label>HTML</label>
                                     <p>5 years experience</p>
                                 </div>
                                 <span className='experience'>High experience</span>
@@ -51,7 +51,7 @@ function Profile() {
                         <div className='singular-skill'>
                             <div className='technology-experience'>
                                 <div className='technology'>
-                                    <label className='technology'>CSS (Flexbox/Grid, responsive and animations)</label>
+                                    <label>CSS (Flexbox/Grid, responsive and animations)</label>
                                     <p>5 years experience</p>
                                 </div>
                                 <span className='experience'>High experience</span>
@@ -61,7 +61,7 @@ function Profile() {
                         <div className='singular-skill'>
                             <div className='technology-experience'>
                                 <div className='technology'>
-                                    <label className='technology'>CSS Frameworks (Bootstrap, Tailwind, Bulma)</label>
+                                    <label>CSS Frameworks (Bootstrap, Tailwind, Bulma)</label>
                                     <p>5 years experience</p>
                                 </div>
                                 <span className='experience'>High experience</span>
@@ -71,7 +71,7 @@ function Profile() {
                         <div className='singular-skill'>
                             <div className='technology-experience'>
                                 <div className='technology'>
-                                    <label className='technology'>Sass (SCSS Syntax/Indented Syntax)</label>
+                                    <label>Sass (SCSS Syntax/Indented Syntax)</label>
                                     <p>5 years experience</p>
                                 </div>
                                 <span className='experience'>High experience</span>
@@ -81,7 +81,7 @@ function Profile() {
                         <div className='singular-skill'>
                             <div className='technology-experience'>
                                 <div className='technology'>
-                                    <label className='technology'>JavaScript</label>
+                                    <label>JavaScript</label>
                                     <p>5 years experience</p>
                                 </div>
                                 <span className='experience'>High experience</span>
@@ -91,7 +91,7 @@ function Profile() {
                         <div className='singular-skill'>
                             <div className='technology-experience'>
                                 <div className='technology'>
-                                    <label className='technology'>TypeScript</label>
+                                    <label>TypeScript</label>
                                     <p>4 years experience</p>
                                 </div>
                                 <span className='experience'>High experience</span>
@@ -101,7 +101,7 @@ function Profile() {
                         <div className='singular-skill'>
                             <div className='technology-experience'>
                                 <div className='technology'>
-                                    <label className='technology'>Angular (Angular 12 - Angular 19)</label>
+                                    <label>Angular (Angular 12 - Angular 19)</label>
                                     <p>4 years experience</p>
                                 </div>
                                 <span className='experience'>High experience</span>
@@ -111,7 +111,7 @@ function Profile() {
                         <div className='singular-skill'>
                             <div className='technology-experience'>
                                 <div className='technology'>
-                                    <label className='technology'>React (17, 18)</label>
+                                    <label>React (17, 18)</label>
                                     <p>2 years experience</p>
                                 </div>
                                 <span className='experience'>Advanced experience</span>
@@ -121,7 +121,7 @@ function Profile() {
                         <div className='singular-skill'>
                             <div className='technology-experience'>
                                 <div className='technology'>
-                                    <label className='technology'>Ionic (Ionic 5 - Ionic 8) [Cordova/Capacitor]</label>
+                                    <label>Ionic (Ionic 5 - Ionic 8) [Cordova/Capacitor]</label>
                                     <p>4 years experience</p>
                                 </div>
                                 <span className='experience'>High experience</span>
@@ -131,7 +131,7 @@ function Profile() {
                         <div className='singular-skill'>
                             <div className='technology-experience'>
                                 <div className='technology'>
-                                    <label className='technology'>Symfony</label>
+                                    <label>Symfony</label>
                                     <p>4 years experience</p>
                                 </div>
                                 <span className='experience'>High experience</span>
@@ -141,7 +141,7 @@ function Profile() {
                         <div className='singular-skill'>
                             <div className='technology-experience'>
                                 <div className='technology'>
-                                    <label className='technology'>Unit test (Jasmine/Karma → Jest)</label>
+                                    <label>Unit test (Jasmine/Karma → Jest)</label>
                                     <p>1 year experience</p>
                                 </div>
                                 <span className='experience'>Low experience</span>
@@ -151,7 +151,7 @@ function Profile() {
                         <div className='singular-skill'>
                             <div className='technology-experience'>
                                 <div className='technology'>
-                                    <label className='technology'>Git</label>
+                                    <label>Git</label>
                                     <p>5 years experience</p>
                                 </div>
                                 <span className='experience'>High experience</span>

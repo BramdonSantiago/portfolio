@@ -55,6 +55,10 @@
 
         .technology {
             color: #a5b6c2;
+            width: 56.56%;
+        }
+        .experience {
+            text-wrap: nowrap;
         }
     }
 
