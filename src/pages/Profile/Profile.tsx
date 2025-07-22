@@ -40,70 +40,100 @@ function Profile() {
                     <div className='skills'>
                         <div className='singular-skill'>
                             <div className='technology-experience'>
-                                <label className='technology'>HTML</label>
+                                <div className='technology'>
+                                    <label className='technology'>HTML</label>
+                                    <p>5 years experience</p>
+                                </div>
                                 <span className='experience'>High experience</span>
                             </div>
                             <progress max="100" value="100"></progress>
                         </div>
                         <div className='singular-skill'>
                             <div className='technology-experience'>
-                                <label className='technology'>CSS</label>
+                                <div className='technology'>
+                                    <label className='technology'>CSS/Sass</label>
+                                    <p>5 years experience</p>
+                                </div>
                                 <span className='experience'>High experience</span>
                             </div>
                             <progress max="100" value="100"></progress>
                         </div>
                         <div className='singular-skill'>
                             <div className='technology-experience'>
-                                <label className='technology'>JavaScript</label>
+                                <div className='technology'>
+                                    <label className='technology'>JavaScript</label>
+                                    <p>5 years experience</p>
+                                </div>
                                 <span className='experience'>High experience</span>
                             </div>
                             <progress max="100" value="100"></progress>
                         </div>
                         <div className='singular-skill'>
                             <div className='technology-experience'>
-                                <label className='technology'>Angular</label>
+                                <div className='technology'>
+                                    <label className='technology'>Angular (Angular 12 - Angular 19)</label>
+                                    <p>4 years experience</p>
+                                </div>
                                 <span className='experience'>High experience</span>
                             </div>
                             <progress max="100" value="100"></progress>
                         </div>
                         <div className='singular-skill'>
                             <div className='technology-experience'>
-                                <label className='technology'>TypeScript</label>
+                                <div className='technology'>
+                                    <label className='technology'>TypeScript</label>
+                                    <p>4 years experience</p>
+                                </div>
                                 <span className='experience'>High experience</span>
                             </div>
                             <progress max="100" value="100"></progress>
                         </div>
                         <div className='singular-skill'>
                             <div className='technology-experience'>
-                                <label className='technology'>Ionic (Cordova/Capacitor)</label>
+                                <div className='technology'>
+                                    <label className='technology'>Ionic (Ionic 5 - Ionic 8) [Cordova/Capacitor]</label>
+                                    <p>4 years experience</p>
+                                </div>
                                 <span className='experience'>High experience</span>
                             </div>
                             <progress max="100" value="100"></progress>
                         </div>
                         <div className='singular-skill'>
                             <div className='technology-experience'>
-                                <label className='technology'>React</label>
+                                <div className='technology'>
+                                    <label className='technology'>React (17, 18)</label>
+                                    <p>2 years experience</p>
+                                </div>
                                 <span className='experience'>Advanced experience</span>
                             </div>
                             <progress max="100" value="75"></progress>
                         </div>
                         <div className='singular-skill'>
                             <div className='technology-experience'>
-                                <label className='technology'>CSS Frameworks (Bootstrap, Tailwind, Bulma)</label>
+                                <div className='technology'>
+                                    <label className='technology'>CSS Frameworks (Bootstrap, Tailwind, Bulma)</label>
+                                    <p>5 years experience</p>
+                                </div>
                                 <span className='experience'>High experience</span>
                             </div>
                             <progress max="100" value="100"></progress>
                         </div>
                         <div className='singular-skill'>
                             <div className='technology-experience'>
-                                <label className='technology'>Symfony</label>
+                                <div className='technology'>
+                                    <label className='technology'>Symfony</label>
+                                    <p>4 years experience</p>
+                                </div>
                                 <span className='experience'>High experience</span>
                             </div>
                             <progress max="100" value="100"></progress>
                         </div>
                         <div className='singular-skill'>
                             <div className='technology-experience'>
-                                <label className='technology'>Git</label>
+                                <div className='technology'>
+                                    <label className='technology'>Git</label>
+                                    <p>5 years experience</p>
+                                </div>
                                 <span className='experience'>High experience</span>
                             </div>
                             <progress max="100" value="100"></progress>

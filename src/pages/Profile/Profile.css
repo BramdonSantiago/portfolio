@@ -225,6 +225,9 @@
         .singular-skill {
             width: calc(50% - 1rem);
             margin-bottom: 1rem;
+            p {
+                margin-bottom: 0;
+            }
         }
     }
 
