@@ -56,9 +56,13 @@
         .technology {
             color: #a5b6c2;
             width: 56%;
+            p {
+                margin-bottom: 0;
+            }
         }
         .experience {
             text-wrap: nowrap;
+            align-self: end;
         }
     }
 
@@ -231,9 +235,6 @@
             margin-bottom: 1rem;
             .technology {
                 width: 75%;
-            }
-            p {
-                margin-bottom: 0;
             }
         }
     }
