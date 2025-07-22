@@ -55,7 +55,7 @@
 
         .technology {
             color: #a5b6c2;
-            width: 56.56%;
+            width: 56%;
         }
         .experience {
             text-wrap: nowrap;
@@ -229,6 +229,9 @@
         .singular-skill {
             width: calc(50% - 1rem);
             margin-bottom: 1rem;
+            .technology {
+                width: 75%;
+            }
             p {
                 margin-bottom: 0;
             }

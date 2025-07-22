@@ -141,6 +141,16 @@ function Profile() {
                         <div className='singular-skill'>
                             <div className='technology-experience'>
                                 <div className='technology'>
+                                    <label>Consumption of REST APIs</label>
+                                    <p>4 year experience</p>
+                                </div>
+                                <span className='experience'>High experience</span>
+                            </div>
+                            <progress max="100" value="100"></progress>
+                        </div>
+                        <div className='singular-skill'>
+                            <div className='technology-experience'>
+                                <div className='technology'>
                                     <label>Unit test (Jasmine/Karma → Jest)</label>
                                     <p>1 year experience</p>
                                 </div>
@@ -151,7 +161,7 @@ function Profile() {
                         <div className='singular-skill'>
                             <div className='technology-experience'>
                                 <div className='technology'>
-                                    <label>Git</label>
+                                    <label>Git (GitHub, Bitbucket)</label>
                                     <p>5 years experience</p>
                                 </div>
                                 <span className='experience'>High experience</span>
