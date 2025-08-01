@@ -114,7 +114,7 @@ function Profile() {
                                     <label>React (17, 18)</label>
                                     <p>2 years experience</p>
                                 </div>
-                                <span className='experience'>Advanced experience</span>
+                                <span className='experience'>Medium-Advanced experience</span>
                             </div>
                             <progress max="100" value="75"></progress>
                         </div>
