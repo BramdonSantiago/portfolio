@@ -44,7 +44,7 @@ function About() {
                     </a>
                 </div>
                 <div className='btn-cv-content'>
-                    <a href='https://drive.google.com/file/d/1mxfEGXoEaHyzCRhehuxBgPJ5062T4hLI/view?usp=drive_link' target='_blank' className='btn btn-outline-terteary'>Download CV</a>
+                    <a href='https://drive.google.com/file/d/13m2Iqgu-a62yb-jm0EhMW6uszFblTsHk/view?usp=drive_link' target='_blank' className='btn btn-outline-terteary'>Download CV</a>
                 </div>
             </div>
         </div>
