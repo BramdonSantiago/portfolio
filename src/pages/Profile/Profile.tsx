@@ -112,7 +112,7 @@ function Profile() {
                             <div className='technology-experience'>
                                 <div className='technology'>
                                     <label>React (17, 18)</label>
-                                    <p>2 years experience</p>
+                                    <p>3 years experience</p>
                                 </div>
                                 <span className='experience'>Medium-Advanced experience</span>
                             </div>
@@ -194,6 +194,7 @@ function Profile() {
                                         I carried out the implementation, development and web deployment. <br />
                                         It is currently still a project in production. <br />
                                     </p>
+                                    <p>-Implementing on-page SEO, I managed to place it at number 1 for taxis in the region in Google search results.</p>
                                 </div>
                             </div>
                             <div className="card">
