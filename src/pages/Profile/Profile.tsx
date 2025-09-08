@@ -1,6 +1,25 @@
+import { useState, useEffect } from "react";
+
 import './Profile.css';
 
 function Profile() {
+    const [experience, setExperience] = useState(0);
+
+    useEffect(() => {
+        const startYear = 2020;
+        const startMonth = 2;
+        const startDay = 20;
+
+        const today = new Date();
+        let years = today.getFullYear() - startYear;
+
+        const anniversaryThisYear = new Date(today.getFullYear(), startMonth, startDay);
+        if (today < anniversaryThisYear) {
+        years -= 1;
+        }
+        setExperience(years);
+    }, []);
+
     return (
         <div className='page-content'>
             <div className="custom-container">
@@ -19,12 +38,12 @@ function Profile() {
                         </div>
                         <div className="info-tags">
                             <div className="singular-info-tag">
-                                <span className='quantity'>5</span>
+                                <span className='quantity'>{experience}</span>
                                 <h3 className='description'>Years of experience</h3>
                             </div>
                             <div className="singular-info-tag">
                                 <span className='quantity'><span className='plus-sign'>+</span> 40</span>
-                                <h3 className='description'>Professional projects</h3>
+                                <h3 className='description'>Professional projects executed</h3>
                             </div>
                             <div className="singular-info-tag">
                                 <span className='quantity'><span className='plus-sign'>+</span> 1500</span>
@@ -162,6 +181,16 @@ function Profile() {
                             <div className='technology-experience'>
                                 <div className='technology'>
                                     <label>Git (GitHub, Bitbucket)</label>
+                                    <p>5 years experience</p>
+                                </div>
+                                <span className='experience'>High experience</span>
+                            </div>
+                            <progress max="100" value="100"></progress>
+                        </div>
+                        <div className='singular-skill'>
+                            <div className='technology-experience'>
+                                <div className='technology'>
+                                    <label>Agile methodologies (Scrum)</label>
                                     <p>5 years experience</p>
                                 </div>
                                 <span className='experience'>High experience</span>
