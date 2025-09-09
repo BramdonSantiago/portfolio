@@ -16,26 +16,25 @@ function Profile() {
 
         const anniversaryThisYear = new Date(today.getFullYear(), startMonth, startDay);
         if (today < anniversaryThisYear) {
-        years -= 1;
+            years -= 1;
         }
         setExperience(years);
     }, []);
 
     useEffect(() => {
-    const startDate = new Date(2020, 2, 20); // 20 de marzo 2020 (mes 2 = marzo)
-    const today = new Date();
+        const startDate = new Date(2020, 2, 20);
+        const today = new Date();
 
-    let cups = 0;
-    let currentDate = new Date(startDate);
+        let cups = 0;
+        let currentDate = new Date(startDate);
 
-    while (currentDate <= today) {
-        const day = currentDate.getDay(); 
-        if (day !== 0 && day !== 6) {
-            cups++;
+        while (currentDate <= today) {
+            const day = currentDate.getDay(); 
+            if (day !== 0 && day !== 6) {
+                cups++;
+            }
+            currentDate.setDate(currentDate.getDate() + 1);
         }
-        currentDate.setDate(currentDate.getDate() + 1);
-    }
-
         setCoffeeCups(cups);
     }, []);
 
@@ -65,7 +64,8 @@ function Profile() {
                                 <h3 className='description'>Professional projects executed</h3>
                             </div>
                             <div className="singular-info-tag">
-                                <span className='quantity'><span className='plus-sign'>+</span> {coffeeCups}</span>
+                                {/* <span className='quantity'><span className='plus-sign'>+</span> {coffeeCups}</span> */}
+                                <span className='quantity'>{coffeeCups}</span>
                                 <h3 className='description'>Cups of coffee drunk</h3>
                             </div>
                         </div>
