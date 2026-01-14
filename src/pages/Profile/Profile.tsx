@@ -235,7 +235,7 @@ function Profile() {
                         <div className="outer">
                             <div className="card">
                                 <div className="info">
-                                    <h3 className="title">2020 - 2021</h3>
+                                    <h3 className="title">2020 - 2021 (Remote)</h3>
                                     <p className='company-name'>Designer and developer at <a href='https://taxisdonvasco.com/' target='_blank'>Taxis Don Vasco</a></p>
                                     <p>
                                         Design the company's website in Adobe XD. <br />
