@@ -50,7 +50,7 @@ function Profile() {
                             <h3>Personal info</h3>
                             <p><span>Name:</span> Bramdon Santiago</p>
                             <p><span>Professional:</span> Frontend developer</p>
-                            <p><span>Location:</span> Mexican</p>
+                            <p><span>Location:</span> Mexico</p>
                             <p><span>Email:</span> bramdsantiago@gmail.com</p>
                             <p><span>Phone:</span> (+52) 4381338561</p>
                             <p><span>Languages:</span> Spanish - Native | English - B1</p>
@@ -235,7 +235,7 @@ function Profile() {
                         <div className="outer">
                             <div className="card">
                                 <div className="info">
-                                    <h3 className="title">2020 - 2021 (Remote)</h3>
+                                    <h3 className="title">2020 - 2021</h3>
                                     <p className='company-name'>Designer and developer at <a href='https://taxisdonvasco.com/' target='_blank'>Taxis Don Vasco</a></p>
                                     <p>
                                         Design the company's website in Adobe XD. <br />
@@ -247,7 +247,7 @@ function Profile() {
                             </div>
                             <div className="card">
                                 <div className="info">
-                                    <h3 className="title">2021 - 2025 (Remote)</h3>
+                                    <h3 className="title">2021 - 2025 (Remote for Colombia)</h3>
                                     <p className='company-name'>Frontend developer at <a href='https://iridian.co/' target='_blank'>Iridian</a></p>
                                     <p>
                                         *Frontend Developer <br />
