@@ -202,6 +202,8 @@
         right: -55px;
         top: 2px;
         /* box-shadow: 0 0 20px 0 #4db8ff; */
+    }
+    .card:last-child>.info>.title::before {
         box-shadow: 0 0 20px 5px #FFF;
     }
 }

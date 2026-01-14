@@ -50,9 +50,10 @@ function Profile() {
                             <h3>Personal info</h3>
                             <p><span>Name:</span> Bramdon Santiago</p>
                             <p><span>Professional:</span> Frontend developer</p>
-                            <p><span>Nationality:</span> Mexican</p>
+                            <p><span>Location:</span> Mexican</p>
                             <p><span>Email:</span> bramdsantiago@gmail.com</p>
                             <p><span>Phone:</span> (+52) 4381338561</p>
+                            <p><span>Languages:</span> Spanish - Native | English - B1</p>
                         </div>
                         <div className="info-tags">
                             <div className="singular-info-tag">
@@ -64,7 +65,6 @@ function Profile() {
                                 <h3 className='description'>Professional projects executed</h3>
                             </div>
                             <div className="singular-info-tag">
-                                {/* <span className='quantity'><span className='plus-sign'>+</span> {coffeeCups}</span> */}
                                 <span className='quantity'>{coffeeCups}</span>
                                 <h3 className='description'>Cups of coffee drunk</h3>
                             </div>
@@ -229,14 +229,14 @@ function Profile() {
                 </section>
                 <section className='section'>
                     <div className='content-title-main'>
-                        <h2 className='title-main text-center'><span>MY</span> EXPERIENCE</h2>
+                        <h2 className='title-main text-center'><span>MY</span> WORK EXPERIENCE</h2>
                     </div>
                     <div className="timeline">
                         <div className="outer">
                             <div className="card">
                                 <div className="info">
-                                    <h3 className="title">2020 - 2021</h3>
-                                    <p className='company-name'>Designer and developer at <a href='https://taxisdonvasco.com/' target='_blanck'>Taxis Don Vasco</a></p>
+                                    <h3 className="title">2020 - 2021 (Remote)</h3>
+                                    <p className='company-name'>Designer and developer at <a href='https://taxisdonvasco.com/' target='_blank'>Taxis Don Vasco</a></p>
                                     <p>
                                         Design the company's website in Adobe XD. <br />
                                         I carried out the implementation, development and web deployment. <br />
@@ -247,13 +247,13 @@ function Profile() {
                             </div>
                             <div className="card">
                                 <div className="info">
-                                    <h3 className="title">2021 - Currently</h3>
-                                    <p className='company-name'>Frontend developer at <a href='https://iridian.co/' target='_blanck'>Iridian</a></p>
+                                    <h3 className="title">2021 - 2025 (Remote)</h3>
+                                    <p className='company-name'>Frontend developer at <a href='https://iridian.co/' target='_blank'>Iridian</a></p>
                                     <p>
-                                        *Frontend Project Developer <br />
-                                        -Project development in Symfony environment. <br />
-                                        -Project development in Angular. <br />
-                                        -Project development in React. <br />
+                                        *Frontend Developer <br />
+                                        -Projects development in Symfony environment. <br />
+                                        -Projects development in Angular. <br />
+                                        -Projects development in React. <br />
                                         -Development of hybrid applications for Android/iOS in Ionic (Cordova/Capacitor) & Angular. <br />
                                     </p>
                                     <p>
@@ -266,6 +266,13 @@ function Profile() {
                                     <p>
                                         Throughout my career, I’ve had the opportunity to work on significant projects for well-known companies such as 𝗢𝗫𝗫𝗢, 𝐇𝐞𝐞𝐥, Enovate, Vumi, Romance Relax, Prodesa, PayOli, Cervalle, TDT, and more recently, a new project called Rifeo, which is in the process of establishing itself. These projects have not only been essential for my professional development, but have also been key to the growth and success of the company I currently collaborate with.
                                     </p>
+                                </div>
+                            </div>
+                            <div className="card">
+                                <div className="info">
+                                    <h3 className="title">2026 - Currently</h3>
+                                    <p className='company-name'>I’m available for new opportunities as a Frontend Developer</p>
+                                    <p>This is really exciting!</p>
                                 </div>
                             </div>
                         </div>
