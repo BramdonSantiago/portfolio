@@ -189,12 +189,12 @@ function Profile() {
                         <div className='singular-skill'>
                             <div className='technology-experience'>
                                 <div className='technology'>
-                                    <label>Unit test (Jasmine/Karma → Jest)</label>
+                                    <label>Unit test (Jasmine/Karma → Vitest)</label>
                                     {/* <p>1 year experience</p> */}
                                 </div>
                                 <span className='experience'>Low experience</span>
                             </div>
-                            <progress max="100" value="25"></progress>
+                            <progress max="10" value="25"></progress>
                         </div>
                         <div className='singular-skill'>
                             <div className='technology-experience'>
