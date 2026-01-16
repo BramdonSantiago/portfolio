@@ -194,7 +194,7 @@ function Profile() {
                                 </div>
                                 <span className='experience'>Low experience</span>
                             </div>
-                            <progress max="10" value="10"></progress>
+                            <progress max="100" value="10"></progress>
                         </div>
                         <div className='singular-skill'>
                             <div className='technology-experience'>
