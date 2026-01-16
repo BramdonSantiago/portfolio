@@ -169,7 +169,7 @@ function Profile() {
                         <div className='singular-skill'>
                             <div className='technology-experience'>
                                 <div className='technology'>
-                                    <label>Symfony (a nivel Twig)</label>
+                                    <label>Symfony (Twig level)</label>
                                     <p>4 years of experience</p>
                                 </div>
                                 <span className='experience'>High experience</span>
