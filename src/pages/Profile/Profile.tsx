@@ -124,7 +124,7 @@ function Profile() {
                                 </div>
                                 <span className='experience'>High experience</span>
                             </div>
-                            <progress max="100" value="100"></progress>
+                            <progress max="100" value="90"></progress>
                         </div>
                         <div className='singular-skill'>
                             <div className='technology-experience'>
@@ -134,7 +134,7 @@ function Profile() {
                                 </div>
                                 <span className='experience'>High experience</span>
                             </div>
-                            <progress max="100" value="100"></progress>
+                            <progress max="100" value="90"></progress>
                         </div>
                         <div className='singular-skill'>
                             <div className='technology-experience'>
@@ -144,7 +144,7 @@ function Profile() {
                                 </div>
                                 <span className='experience'>High experience</span>
                             </div>
-                            <progress max="100" value="100"></progress>
+                            <progress max="100" value="88"></progress>
                         </div>
                         <div className='singular-skill'>
                             <div className='technology-experience'>
@@ -169,7 +169,7 @@ function Profile() {
                         <div className='singular-skill'>
                             <div className='technology-experience'>
                                 <div className='technology'>
-                                    <label>Symfony</label>
+                                    <label>Symfony (a nivel Twig)</label>
                                     <p>4 years of experience</p>
                                 </div>
                                 <span className='experience'>High experience</span>
@@ -190,7 +190,7 @@ function Profile() {
                             <div className='technology-experience'>
                                 <div className='technology'>
                                     <label>Unit test (Jasmine/Karma → Jest)</label>
-                                    <p>1 year experience</p>
+                                    {/* <p>1 year experience</p> */}
                                 </div>
                                 <span className='experience'>Low experience</span>
                             </div>
