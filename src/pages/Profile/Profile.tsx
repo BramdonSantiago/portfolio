@@ -89,7 +89,7 @@ function Profile() {
                         <div className='singular-skill'>
                             <div className='technology-experience'>
                                 <div className='technology'>
-                                    <label>CSS (Flexbox/Grid, responsive design and animations)</label>
+                                    <label>CSS (BEM, CSS Modules, Mobile First, Flexbox/Grid, responsive design and animations)</label>
                                     <p>5 years of experience</p>
                                 </div>
                                 <span className='experience'>High experience</span>
