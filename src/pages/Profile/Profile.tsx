@@ -199,7 +199,7 @@ function Profile() {
                         <div className='singular-skill'>
                             <div className='technology-experience'>
                                 <div className='technology'>
-                                    <label>Git (GitHub, Bitbucket)</label>
+                                    <label>Git (GitHub, Bitbucket) team-based workflows</label>
                                     <p>5 years of experience</p>
                                 </div>
                                 <span className='experience'>High experience</span>
