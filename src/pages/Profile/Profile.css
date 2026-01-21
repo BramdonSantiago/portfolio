@@ -37,6 +37,7 @@
         margin-top: 1rem;
         margin-bottom: 0;
     }
+
     .plus-sign {
         color: #4db8ff;
     }
@@ -56,10 +57,12 @@
         .technology {
             color: #a5b6c2;
             width: 56%;
+
             p {
                 margin-bottom: 0;
             }
         }
+
         .experience {
             text-wrap: nowrap;
             align-self: end;
@@ -99,23 +102,30 @@
         margin-left: auto;
         margin-right: auto;
     }
-    
+
     .card:nth-child(odd) {
         padding: 2rem 0 2rem 2rem;
     }
-    
+
     .card:nth-child(even) {
         padding: 2rem 2rem 2rem 0;
     }
-    
+
     .card::before {
         content: "";
         position: absolute;
         width: 50%;
-        border: solid #4db8ff;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0);
         z-index: -2;
+        opacity: 0;
+        visibility: hidden;
+        animation: reveal linear forwards;
+        -webkit-animation: reveal linear forwards;
+        animation-timeline: view();
+        animation-range: entry 0% cover 30%;
     }
-    
+
     .card:nth-child(odd)::before {
         left: 0px;
         /* top: -4.5px;
@@ -125,14 +135,14 @@
         border-width: 5px 0 5px 5px;
         border-radius: 50px 0 0 50px;
     }
-    
+
     /* @media only screen and (max-width: 400px) {
         .card:nth-child(odd)::before {
             top: -5px;
             bottom: -5px;
         }
     } */
-    
+
     .card:nth-child(even)::before {
         right: 0;
         top: -5px;
@@ -140,22 +150,22 @@
         border-width: 5px 5px 5px 0;
         border-radius: 0 50px 50px 0;
     }
-    
+
     .card:first-child::before {
         border-top: 0;
         border-top-left-radius: 0;
     }
-    
+
     .card:last-child:nth-child(odd)::before {
         border-bottom: 0;
         border-bottom-left-radius: 0;
     }
-    
+
     .card:last-child:nth-child(even)::before {
         border-bottom: 0;
         border-bottom-right-radius: 0;
     }
-    
+
     .info {
         display: flex;
         flex-direction: column;
@@ -168,16 +178,17 @@
         -moz-border-radius: 10px;
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
+
         .company-name {
             color: #FFF;
         }
     }
-    
+
     .title {
         color: #4db8ff;
         position: relative;
     }
-    
+
     .title::before {
         content: "";
         position: absolute;
@@ -187,27 +198,40 @@
         border-radius: 999px;
         border: 3px solid #4db8ff;
     }
-    
+
     .card:nth-child(even)>.info>.title,
     .card:nth-child(even)>.info>.company-name {
         text-align: right;
     }
-    
+
     .card:nth-child(odd)>.info>.title::before {
         left: -55px;
         top: 2px;
     }
-    
+
     .card:nth-child(even)>.info>.title::before {
         right: -55px;
         top: 2px;
         /* box-shadow: 0 0 20px 0 #4db8ff; */
     }
+
     .card:last-child>.info>.title::before {
         box-shadow: 0 0 20px 5px #FFF;
     }
 }
 
+@keyframes reveal {
+    from {
+        opacity: 0;
+        visibility: hidden;
+        border-color: rgba(255, 255, 255, 0);
+    }
+    to {
+        opacity: 1;
+        visibility: visible;
+        border-color: #4db8ff;
+    }
+}
 
 @media(min-width: 1200px) {
     .personal-info {
@@ -235,6 +259,7 @@
         .singular-skill {
             width: calc(50% - 1rem);
             margin-bottom: 1rem;
+
             .technology {
                 width: 75%;
             }
