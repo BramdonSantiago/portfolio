@@ -2,6 +2,8 @@ import './About.css';
 
 import { useEffect, useState } from "react";
 
+import ScatteringText from '../../components/ScatteringText/ScatteringText';
+
 
 function About() {
     const [text, setText] = useState("");
@@ -27,7 +29,17 @@ function About() {
         <div className='page-content text-center'>
             <div className="custom-container">
                 <div className='content-title-main'>
-                    <h1 className='title-main' style={{ marginBottom: '1rem' }}>I am <span>Bramdon Santiago</span></h1>
+                    <div style={{ marginBottom: '1rem' }}>
+                        <ScatteringText
+                            Tag="h1"
+                            className="title-main text-center"
+                            textParts={[
+                                { text: "I am" },
+                                { text: " Bramdon Santiago", scatter: true},
+                            ]}
+                        />
+                    </div>
+                    {/* <h1 className='title-main' style={{ marginBottom: '1rem' }}>I am <span>Bramdon Santiago</span></h1> */}
                     <h2>{text}</h2>
                 </div>
                 <p>Hi, I am Bramdon, a technology enthusiast from Mexico. I am passionate about web design and development, especially everything related to visual aspects and interactivity. I love working on the frontend. Additionally, I enjoy designing my own sites, so I have experience with design tools such as Figma and Adobe XD. I have been involved from the beginning through to the launch of multiple projects. I'm seeking new challenges. I understand UI/UX, and as part of the challenges I have faced, I have successfully designed and developed my own interfaces and prototypes. I have experience with agile methodologies, such as Scrum.</p>

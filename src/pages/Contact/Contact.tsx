@@ -1,11 +1,20 @@
 import './Contact.css';
+import ScatteringText from '../../components/ScatteringText/ScatteringText';
 
 function Contact() {
     return (
         <div className='page-content'>
             <div className="custom-container">
                 <div className='content-title-main'>
-                    <h1 className='title-main text-center'>CONTACT <span>ME</span></h1>
+                    <ScatteringText
+                        Tag="h1"
+                        className="title-main text-center"
+                        textParts={[
+                            { text: "CONTACT" },
+                            { text: " ME", scatter: true },
+                        ]}
+                    />
+                    {/* <h1 className='title-main text-center'>CONTACT <span>ME</span></h1> */}
                 </div>
                 <div className="contact-data">
                     <div className='lets-keep-touch'>

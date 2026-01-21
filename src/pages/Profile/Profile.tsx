@@ -1,4 +1,5 @@
-import { useState, useEffect} from "react";
+import { useState, useEffect } from "react";
+import ScatteringText from '../../components/ScatteringText/ScatteringText';
 
 import './Profile.css';
 
@@ -6,11 +7,6 @@ import './Profile.css';
 function Profile() {
     const [experience, setExperience] = useState(0);
     const [coffeeCups, setCoffeeCups] = useState(0);
-
-    const [scatter, setScatter] = useState(false);
-
-    const text = "ME";
-
 
     useEffect(() => {
         const startYear = 2020;
@@ -49,34 +45,14 @@ function Profile() {
             <div className="custom-container">
                 <div className='section'>
                     <div className='content-title-main'>
-                        <h1
+                        <ScatteringText
+                            Tag="h1"
                             className="title-main text-center"
-                            onMouseEnter={() => setScatter(true)}
-                            onMouseLeave={() => setScatter(false)}
-                            style={{ cursor: "pointer" }}
-                        >
-                            ABOUT{" "}
-                            {text.split("").map((char, i) => {
-                                const x = Math.random() * 5;
-                                const y = Math.random() * -5;
-
-                                return (
-                                    <span
-                                        key={i}
-                                        style={{
-                                            display: "inline-block",
-                                            transform: scatter
-                                                ? `translate(${x}px, ${y}px)`
-                                                : "translate(0,0)",
-                                            transition: "transform 0.6s cubic-bezier(0.22,1,0.36,1)",
-                                            transitionDelay: `${i * 25}ms`,
-                                        }}
-                                    >
-                                        {char === " " ? "\u00A0" : char}
-                                    </span>
-                                );
-                            })}
-                        </h1>
+                            textParts={[
+                                { text: "ABOUT" },
+                                { text: " ME", scatter: true},
+                            ]}
+                        />
                     </div>
                     {/* <div className='content-title-main'>
                         <h1 className='title-main text-center'>ABOUT <span>ME</span></h1>
@@ -109,7 +85,15 @@ function Profile() {
                 </div>
                 <section className='section'>
                     <div className='content-title-main'>
-                        <h2 className='title-main text-center'><span>MY</span> SKILLS</h2>
+                        <ScatteringText
+                            Tag="h2"
+                            className="title-main text-center"
+                            textParts={[
+                                { text: "MY", scatter: true },
+                                { text: " SKILLS" },
+                            ]}
+                        />
+                        {/* <h2 className='title-main text-center'><span>MY</span> SKILLS</h2> */}
                     </div>
                     <div className='skills'>
                         <div className='singular-skill'>
@@ -256,7 +240,15 @@ function Profile() {
                 </section>
                 <section className='section'>
                     <div className='content-title-main'>
-                        <h2 className='title-main text-center'><span>COVER</span> LETTER</h2>
+                        <ScatteringText
+                            Tag="h2"
+                            className="title-main text-center"
+                            textParts={[
+                                { text: "COVER", scatter: true },
+                                { text: " LETTER" },
+                            ]}
+                        />
+                        {/* <h2 className='title-main text-center'><span>COVER</span> LETTER</h2> */}
                     </div>
                     <p>I'm a front-end developer with 5 years of experience creating modern, accessible, and user-experience-focused interfaces. I work primarily with Angular, specializing in developing web and hybrid mobile apps for Android/iOS that not only work well, but also feel good.</p>
                     <p>I'm passionate about building functional and clean solutions, collaborating with multidisciplinary teams, and staying on top of best practices and new tools. Although I'm not a designer, I have a keen eye for visual details and enjoy turning ideas into powerful and engaging digital experiences.</p>
@@ -265,7 +257,15 @@ function Profile() {
                 </section>
                 <section className='section'>
                     <div className='content-title-main'>
-                        <h2 className='title-main text-center'><span>MY</span> WORK EXPERIENCE</h2>
+                        <ScatteringText
+                            Tag="h2"
+                            className="title-main text-center"
+                            textParts={[
+                                { text: "MY", scatter: true },
+                                { text: " WORK EXPERIENCE" },
+                            ]}
+                        />
+                        {/* <h2 className='title-main text-center'><span>MY</span> WORK EXPERIENCE</h2> */}
                     </div>
                     <div className="timeline">
                         <div className="outer">

@@ -2,6 +2,8 @@ import './Portfolio.css';
 
 // import { Link } from 'react-router-dom';
 
+import ScatteringText from '../../components/ScatteringText/ScatteringText';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, EffectCoverflow } from 'swiper/modules';
 
@@ -15,7 +17,15 @@ function Portfolio() {
         <div className='page-content'>
             <div className="custom-container container-portfolio">
                 <div className='content-title-main'>
-                    <h1 className='title-main text-center'><span>LATEST</span> PROJECTS</h1>
+                    <ScatteringText
+                        Tag="h1"
+                        className="title-main text-center"
+                        textParts={[
+                            { text: "LATEST", scatter: true },
+                            { text: " PROJECTS" },
+                        ]}
+                    />
+                    {/* <h1 className='title-main text-center'><span>LATEST</span> PROJECTS</h1> */}
                 </div>
                 <Swiper
                     modules={[Autoplay, EffectCoverflow]}
@@ -23,7 +33,7 @@ function Portfolio() {
                         delay: 5000,
                         disableOnInteraction: false,
                     }}
-                    effect = {'coverflow'}
+                    effect={'coverflow'}
                     coverflowEffect={{
                         rotate: 0,
                         stretch: 0,
