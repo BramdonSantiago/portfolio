@@ -120,8 +120,8 @@
         z-index: -2;
         opacity: 0;
         visibility: hidden;
-        animation: reveal linear forwards;
-        -webkit-animation: reveal linear forwards;
+        animation: reveal ease-in-out forwards;
+        -webkit-animation: reveal ease-in-out forwards;
         animation-timeline: view();
         animation-range: entry 0% cover 30%;
     }
@@ -194,9 +194,16 @@
         position: absolute;
         width: 18px;
         height: 18px;
-        background: white;
         border-radius: 999px;
-        border: 3px solid #4db8ff;
+        border: 3px solid;
+        border-color: rgba(255, 255, 255, 0);
+        background-color: rgba(255, 255, 255, 0);
+        opacity: 0;
+        visibility: hidden;
+        animation: reveal2 ease-in-out forwards;
+        -webkit-animation: reveal2 ease-in-out forwards;
+        animation-timeline: view();
+        animation-range: entry 0% cover 30%;
     }
 
     .card:nth-child(even)>.info>.title,
@@ -232,6 +239,21 @@
         border-color: #4db8ff;
     }
 }
+@keyframes reveal2 {
+    from {
+        opacity: 0;
+        visibility: hidden;
+        border-color: rgba(255, 255, 255, 0);
+        background-color: rgba(255, 255, 255, 0);
+    }
+    to {
+        opacity: 1;
+        visibility: visible;
+        border-color: #4db8ff;
+        background-color: #FFF;
+    }
+}
+
 
 @media(min-width: 1200px) {
     .personal-info {
