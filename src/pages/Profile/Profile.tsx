@@ -1,10 +1,16 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect} from "react";
 
 import './Profile.css';
+
 
 function Profile() {
     const [experience, setExperience] = useState(0);
     const [coffeeCups, setCoffeeCups] = useState(0);
+
+    const [scatter, setScatter] = useState(false);
+
+    const text = "ME";
+
 
     useEffect(() => {
         const startYear = 2020;
@@ -29,7 +35,7 @@ function Profile() {
         let currentDate = new Date(startDate);
 
         while (currentDate <= today) {
-            const day = currentDate.getDay(); 
+            const day = currentDate.getDay();
             if (day !== 0 && day !== 6) {
                 cups++;
             }
@@ -43,8 +49,38 @@ function Profile() {
             <div className="custom-container">
                 <div className='section'>
                     <div className='content-title-main'>
-                        <h1 className='title-main text-center'>ABOUT <span>ME</span></h1>
+                        <h1
+                            className="title-main text-center"
+                            onMouseEnter={() => setScatter(true)}
+                            onMouseLeave={() => setScatter(false)}
+                            style={{ cursor: "pointer" }}
+                        >
+                            ABOUT{" "}
+                            {text.split("").map((char, i) => {
+                                const x = Math.random() * 5;
+                                const y = Math.random() * -5;
+
+                                return (
+                                    <span
+                                        key={i}
+                                        style={{
+                                            display: "inline-block",
+                                            transform: scatter
+                                                ? `translate(${x}px, ${y}px)`
+                                                : "translate(0,0)",
+                                            transition: "transform 0.6s cubic-bezier(0.22,1,0.36,1)",
+                                            transitionDelay: `${i * 25}ms`,
+                                        }}
+                                    >
+                                        {char === " " ? "\u00A0" : char}
+                                    </span>
+                                );
+                            })}
+                        </h1>
                     </div>
+                    {/* <div className='content-title-main'>
+                        <h1 className='title-main text-center'>ABOUT <span>ME</span></h1>
+                    </div> */}
                     <div className="personal-info">
                         <div className="info-data">
                             <h3>Personal info</h3>
