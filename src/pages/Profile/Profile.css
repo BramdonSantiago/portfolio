@@ -115,11 +115,11 @@
         content: "";
         position: absolute;
         width: 50%;
-        border-style: solid;
-        border-color: rgba(255, 255, 255, 0);
+        border-style: dashed;
         z-index: -2;
         opacity: 0;
         visibility: hidden;
+        border-color: rgba(255, 255, 255, 0);
         animation: reveal ease-in-out forwards;
         -webkit-animation: reveal ease-in-out forwards;
         animation-timeline: view();
