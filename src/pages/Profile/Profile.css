@@ -115,7 +115,7 @@
         content: "";
         position: absolute;
         width: 50%;
-        border-style: dashed;
+        border-style: dotted;
         z-index: -2;
         opacity: 0;
         visibility: hidden;
