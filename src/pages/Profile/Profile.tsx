@@ -230,7 +230,7 @@ function Profile() {
                             <div className='technology-experience'>
                                 <div className='technology'>
                                     <label>Agile methodologies (Scrum)</label>
-                                    <p>5 years of experience</p>
+                                    <p>4 years and six months of experience</p>
                                 </div>
                                 <span className='experience'>High experience</span>
                             </div>
