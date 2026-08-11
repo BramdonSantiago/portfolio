@@ -43,40 +43,66 @@ function Portfolio() {
                     }}
                     centeredSlides={true}
                     slidesPerView={1.3}
-                    spaceBetween={25}
+                    spaceBetween={0}
                     breakpoints={{
                         1200: {
                             slidesPerView: 2.3,
-                            spaceBetween: 25,
+                            spaceBetween: 0,
                         },
                     }}
                 >
                     <SwiperSlide>
-                        {/* <Link to="/"> */}
-                        <img src="https://bramdonsantiago.github.io/portfolio/img/tierra-mockup-min.png" alt="" loading='lazy' />
-                        <h3>Tierra a la vista</h3>
-                        <div className='content-btn'>
-                            <a href="https://tierravista.iridian.co/es" target='_blank' className='btn btn-outline-terteary'>Visit project</a>
+                        <div className='singular-project'>
+                            <img src="https://bramdonsantiago.github.io/portfolio/img/tierra-mockup-min.png" alt="" loading='lazy' />
+                            <h3>Tierra a la vista</h3>
+                            <p className='description-platform'>Real estate platform</p>
+                            <p className='tag-line'>
+                                <span className='technology'>Symfony</span>
+                                <span className='technology'>JavaScript</span>
+                                <span className='technology'>HTML</span>
+                                <span className='technology'>CSS</span>
+                                <span className='technology'>Dark Mode</span>
+                            </p>
+                            <div className='content-btn'>
+                                <a href="https://tierravista.iridian.co/es" target='_blank' className='btn btn-outline-terteary'>Visit project</a>
+                            </div>
                         </div>
-                        {/* </Link> */}
                     </SwiperSlide>
                     <SwiperSlide>
-                        {/* <Link to="/"> */}
-                        <img src="https://bramdonsantiago.github.io/portfolio/img/heel-mockup-min.png" alt="" loading='lazy' />
-                        <h3>Farmacia virtual Heel</h3>
-                        <div className='content-btn'>
-                            <a href="https://redisenofarmacia.iridian.co/" target='_blank' className='btn btn-outline-terteary'>Visit project</a>
+                        <div className='singular-project'>
+                            <img src="https://bramdonsantiago.github.io/portfolio/img/heel-mockup-min.png" alt="" loading='lazy' />
+                            <h3>Farmacia Virtual Heel</h3>
+                            <p className='description-platform'>Healthcare eCommerce platform</p>
+                            <p className='tag-line'>
+                                <span className='technology'>Symfony</span>
+                                <span className='technology'>JavaScript</span>
+                                <span className='technology'>HTML</span>
+                                <span className='technology'>CSS</span>
+                                <span className='technology'>Bootstrap</span>
+                                <span className='technology'>UI/UX Redesign</span>
+                            </p>
+                            <div className='content-btn'>
+                                <a href="https://redisenofarmacia.iridian.co/" target='_blank' className='btn btn-outline-terteary'>Visit project</a>
+                            </div>
                         </div>
-                        {/* </Link> */}
                     </SwiperSlide>
                     <SwiperSlide>
-                        {/* <Link to="/"> */}
-                        <img src="https://bramdonsantiago.github.io/portfolio/img/rifu-mockup-min.png" alt="" loading='lazy' />
-                        <h3>Rifeo</h3>
-                        <div className='content-btn'>
-                            <a href="https://rifeo.co/" target='_blank' className='btn btn-outline-terteary'>Visit project</a>
+                        <div className='singular-project'>
+                            <img src="https://bramdonsantiago.github.io/portfolio/img/rifu-mockup-min.png" alt="" loading='lazy' />
+                            <h3>Rifu / Rifeo</h3>
+                            <p className='description-platform'>High-traffic multi-tenant raffle and sweepstakes platform</p>
+                            <p className='tag-line'>
+                                <span className='technology'>Symfony</span>
+                                <span className='technology'>JavaScript</span>
+                                <span className='technology'>HTML</span>
+                                <span className='technology'>CSS</span>
+                                <span className='technology'>UI/UX Redesign</span>
+                                <span className='technology'>Multi-Tenant</span>
+                            </p>
+                            <div className='content-btn'>
+                                <a href="https://rifeo.co/" target='_blank' className='btn btn-outline-terteary'>Visit project</a>
+                            </div>
                         </div>
-                        {/* </Link> */}
                     </SwiperSlide>
                 </Swiper>
             </div>

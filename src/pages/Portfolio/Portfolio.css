@@ -14,8 +14,62 @@
         img {
             width: 100%;
         }
-        .content-btn {
+        /* .content-btn {
             margin-top: 3rem;
+        } */
+        .content-btn {
+            margin-top: 2.5rem;
+        }
+    }
+}
+
+.singular-project {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.02);
+    /* background-color: rgba(0, 0, 0, 0.02); */
+    backdrop-filter: blur(10px);
+    padding: 1rem 2rem;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+.description-platform {
+    font-weight: 100;
+    line-height: 1;
+}
+
+.tag-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2.5rem;
+    row-gap: 0.5rem;
+    flex-wrap: wrap;
+    font-size: 0.875rem;
+    font-weight: 100;
+    .technology {
+        position: relative;
+        &::before {
+            content: "";
+            position: absolute;
+            left: -16px;
+            top: 50%;
+            width: 4px;
+            height: 4px;
+            background-color: #4db8ff;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
         }
     }
 }
