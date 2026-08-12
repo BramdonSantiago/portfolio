@@ -132,7 +132,7 @@ function Portfolio() {
                             <img src="https://bramdonsantiago.github.io/portfolio/img/vumi-mockup-min.png" alt="" loading='lazy' />
                             <h3>Travel VIP App</h3>
                             <p className='description-platform'>
-                                Enterprise mobile application for an insurance company using Ionic and Angular.
+                                Enterprise mobile application for an insurance company using Ionic.
                             </p>
                             <p className='tag-line'>
                                 <span className='technology'>Ionic</span>
@@ -141,10 +141,10 @@ function Portfolio() {
                                 <span className='technology'>Standalone Components</span>
                                 <span className='technology'>Consuming RESTful APIs</span>
                                 <span className='technology'>Headless Architecture</span>
-                                <span className='technology'>App Available For Dispositives iOS And Android</span>
+                                <span className='technology'>App available for dispositives iOS and Android</span>
                             </p>
                             <div className='content-btn'>
-                                <a href="https://play.google.com/store/apps/details?id=co.iridian.travels.vumi&hl=es_MX" target='_blank' className='btn btn-outline-terteary'>Visit Project</a>
+                                <a href="https://play.google.com/store/apps/details?id=co.iridian.travels.vumi&hl=es_MX" target='_blank' className='btn btn-outline-terteary'>Visit Store</a>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -162,10 +162,10 @@ function Portfolio() {
                                 <span className='technology'>Standalone Components</span>
                                 <span className='technology'>Consuming RESTful APIs</span>
                                 <span className='technology'>Headless Architecture</span>
-                                <span className='technology'>App Available For Dispositives iOS And Android</span>
+                                <span className='technology'>App available for dispositives iOS and Android</span>
                             </p>
                             <div className='content-btn'>
-                                <a href="https://play.google.com/store/apps/details?id=com.personal.prodesa_android&hl=es_MX" target='_blank' className='btn btn-outline-terteary'>Visit Project</a>
+                                <a href="https://play.google.com/store/apps/details?id=com.personal.prodesa_android&hl=es_MX" target='_blank' className='btn btn-outline-terteary'>Visit Store</a>
                             </div>
                         </div>
                     </SwiperSlide>
