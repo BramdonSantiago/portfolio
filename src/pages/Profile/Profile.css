@@ -1,3 +1,12 @@
+.info {
+    visibility: hidden;
+    opacity: 0;
+    animation: reveal3 ease-in-out forwards;
+    -webkit-animation: reveal3 ease-in-out forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+
 .info-data {
     h3 {
         font-size: 1.6rem;
@@ -251,6 +260,16 @@
         visibility: visible;
         border-color: #4db8ff;
         background-color: #FFF;
+    }
+}
+@keyframes reveal3 {
+    from {
+        opacity: 0;
+        visibility: hidden;
+    }
+    to {
+        opacity: 1;
+        visibility: visible;
     }
 }
 

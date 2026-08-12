@@ -61,10 +61,11 @@ function Portfolio() {
                                 <span className='technology'>JavaScript</span>
                                 <span className='technology'>HTML</span>
                                 <span className='technology'>CSS</span>
+                                <span className='technology'>Sass</span>
                                 <span className='technology'>Dark Mode</span>
                             </p>
                             <div className='content-btn'>
-                                <a href="https://tierravista.iridian.co/es" target='_blank' className='btn btn-outline-terteary'>Visit project</a>
+                                <a href="https://tierravista.iridian.co/es" target='_blank' className='btn btn-outline-terteary'>Visit Project</a>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -78,11 +79,12 @@ function Portfolio() {
                                 <span className='technology'>JavaScript</span>
                                 <span className='technology'>HTML</span>
                                 <span className='technology'>CSS</span>
+                                <span className='technology'>Sass</span>
                                 <span className='technology'>Bootstrap</span>
                                 <span className='technology'>UI/UX Redesign</span>
                             </p>
                             <div className='content-btn'>
-                                <a href="https://redisenofarmacia.iridian.co/" target='_blank' className='btn btn-outline-terteary'>Visit project</a>
+                                <a href="https://redisenofarmacia.iridian.co/" target='_blank' className='btn btn-outline-terteary'>Visit Project</a>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -96,11 +98,32 @@ function Portfolio() {
                                 <span className='technology'>JavaScript</span>
                                 <span className='technology'>HTML</span>
                                 <span className='technology'>CSS</span>
+                                <span className='technology'>Sass</span>
                                 <span className='technology'>UI/UX Redesign</span>
                                 <span className='technology'>Multi-Tenant</span>
                             </p>
                             <div className='content-btn'>
-                                <a href="https://rifeo.co/" target='_blank' className='btn btn-outline-terteary'>Visit project</a>
+                                <a href="https://rifeo.co/" target='_blank' className='btn btn-outline-terteary'>Visit Project</a>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className='singular-project'>
+                            <img src="https://bramdonsantiago.github.io/portfolio/img/cervalle-mockup-min.png" alt="" loading='lazy' />
+                            <h3>Rifu / Rifeo</h3>
+                            <p className='description-platform'>
+                                Modern eCommerce platform focused on performance and user experience (UX), incorporating advanced animations, fluid transitions, and dynamic content loading.
+                            </p>
+                            <p className='tag-line'>
+                                <span className='technology'>React/Next.js</span>
+                                <span className='technology'>React Query + Axios</span>
+                                <span className='technology'>React Hook Form</span>
+                                <span className='technology'>CSS modules</span>
+                                <span className='technology'>Consuming a RESTful API</span>
+                                <span className='technology'>Headless Architecture</span>
+                            </p>
+                            <div className='content-btn'>
+                                <a href="https://cervalle.com/" target='_blank' className='btn btn-outline-terteary'>Visit Project</a>
                             </div>
                         </div>
                     </SwiperSlide>
