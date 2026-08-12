@@ -50,7 +50,7 @@ function Profile() {
                             className="title-main text-center"
                             textParts={[
                                 { text: "ABOUT" },
-                                { text: " ME", scatter: true},
+                                { text: " ME", scatter: true },
                             ]}
                         />
                     </div>
@@ -302,6 +302,8 @@ function Profile() {
                                     <p>
                                         Throughout my career, I’ve had the opportunity to work on significant projects for well-known companies such as 𝗢𝗫𝗫𝗢, 𝐇𝐞𝐞𝐥, Enovate, Vumi, Romance Relax, Prodesa, PayOli, Cervalle, TDT, and more recently, a new project called Rifeo, which is in the process of establishing itself. These projects have not only been essential for my professional development, but have also been key to the growth and success of the company I currently collaborate with.
                                     </p>
+                                    <p>-Experience with industry SaaS (Software as a Service), E-commerce, Transportation and logistics, Real estate, Healthcare eLearning, and Entertainment.</p>
+                                    <p>At Iridian I collaborated on around 40 - 50 projects as a Frontend Developer.</p>
                                 </div>
                             </div>
                             <div className="card">
