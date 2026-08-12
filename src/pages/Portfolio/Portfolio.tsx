@@ -30,7 +30,7 @@ function Portfolio() {
                 <Swiper
                     modules={[Autoplay, EffectCoverflow]}
                     autoplay={{
-                        delay: 5000,
+                        delay: 6000,
                         disableOnInteraction: false,
                     }}
                     effect={'coverflow'}
@@ -100,7 +100,7 @@ function Portfolio() {
                                 <span className='technology'>CSS</span>
                                 <span className='technology'>Sass</span>
                                 <span className='technology'>UI/UX Redesign</span>
-                                <span className='technology'>Multi-Tenant</span>
+                                <span className='technology'>Multi-Tenant Architecture</span>
                             </p>
                             <div className='content-btn'>
                                 <a href="https://rifeo.co/" target='_blank' className='btn btn-outline-terteary'>Visit Project</a>
@@ -110,7 +110,7 @@ function Portfolio() {
                     <SwiperSlide>
                         <div className='singular-project'>
                             <img src="https://bramdonsantiago.github.io/portfolio/img/cervalle-mockup-min.png" alt="" loading='lazy' />
-                            <h3>Rifu / Rifeo</h3>
+                            <h3>CERVALLE</h3>
                             <p className='description-platform'>
                                 Modern eCommerce platform focused on performance and user experience (UX), incorporating advanced animations, fluid transitions, and dynamic content loading.
                             </p>
@@ -118,12 +118,54 @@ function Portfolio() {
                                 <span className='technology'>React/Next.js</span>
                                 <span className='technology'>React Query + Axios</span>
                                 <span className='technology'>React Hook Form</span>
-                                <span className='technology'>CSS modules</span>
-                                <span className='technology'>Consuming a RESTful API</span>
+                                <span className='technology'>CSS Modules</span>
+                                <span className='technology'>Consuming RESTful APIs</span>
                                 <span className='technology'>Headless Architecture</span>
                             </p>
                             <div className='content-btn'>
                                 <a href="https://cervalle.com/" target='_blank' className='btn btn-outline-terteary'>Visit Project</a>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className='singular-project'>
+                            <img src="https://bramdonsantiago.github.io/portfolio/img/vumi-mockup-min.png" alt="" loading='lazy' />
+                            <h3>Travel VIP App</h3>
+                            <p className='description-platform'>
+                                Enterprise mobile application for an insurance company using Ionic and Angular.
+                            </p>
+                            <p className='tag-line'>
+                                <span className='technology'>Ionic</span>
+                                <span className='technology'>Capacitor</span>
+                                <span className='technology'>Angular</span>
+                                <span className='technology'>Standalone Components</span>
+                                <span className='technology'>Consuming RESTful APIs</span>
+                                <span className='technology'>Headless Architecture</span>
+                                <span className='technology'>App Available For Dispositives iOS And Android</span>
+                            </p>
+                            <div className='content-btn'>
+                                <a href="https://play.google.com/store/apps/details?id=co.iridian.travels.vumi&hl=es_MX" target='_blank' className='btn btn-outline-terteary'>Visit Project</a>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className='singular-project'>
+                            <img src="https://bramdonsantiago.github.io/portfolio/img/prodesa-mockup-min.png" alt="" loading='lazy' />
+                            <h3>Prodesa</h3>
+                            <p className='description-platform'>
+                                Mobile application for real estate management and buying/renting processes, developed with Ionic.
+                            </p>
+                            <p className='tag-line'>
+                                <span className='technology'>Ionic</span>
+                                <span className='technology'>Capacitor</span>
+                                <span className='technology'>Angular</span>
+                                <span className='technology'>Standalone Components</span>
+                                <span className='technology'>Consuming RESTful APIs</span>
+                                <span className='technology'>Headless Architecture</span>
+                                <span className='technology'>App Available For Dispositives iOS And Android</span>
+                            </p>
+                            <div className='content-btn'>
+                                <a href="https://play.google.com/store/apps/details?id=com.personal.prodesa_android&hl=es_MX" target='_blank' className='btn btn-outline-terteary'>Visit Project</a>
                             </div>
                         </div>
                     </SwiperSlide>
