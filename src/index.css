@@ -82,6 +82,10 @@ a {
   text-decoration: none;
 }
 
+sup {
+  vertical-align: text-top;
+}
+
 .text-center {
   text-align: center;
 }

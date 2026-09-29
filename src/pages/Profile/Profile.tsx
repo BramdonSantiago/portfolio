@@ -64,7 +64,7 @@ function Profile() {
                             <p><span>Professional:</span> Frontend developer</p>
                             <p><span>Location:</span> Mexico</p>
                             <p><span>Email:</span> bramdsantiago@gmail.com</p>
-                            <p><span>Phone:</span> (+52) 4381338561</p>
+                            <p><span>Phone:</span> +52 438 133 8561</p>
                             <p><span>Languages:</span> Spanish - Native | English - B1</p>
                         </div>
                         <div className="info-tags">
@@ -100,7 +100,7 @@ function Profile() {
                             <div className='technology-experience'>
                                 <div className='technology'>
                                     <label>HTML</label>
-                                    <p>5 years of experience</p>
+                                    <p>6 years of experience</p>
                                 </div>
                                 <span className='experience'>High experience</span>
                             </div>
@@ -110,7 +110,7 @@ function Profile() {
                             <div className='technology-experience'>
                                 <div className='technology'>
                                     <label>CSS (BEM, CSS Modules, Mobile First, Flexbox/Grid, responsive design and animations)</label>
-                                    <p>5 years of experience</p>
+                                    <p>6 years of experience</p>
                                 </div>
                                 <span className='experience'>High experience</span>
                             </div>
@@ -119,8 +119,8 @@ function Profile() {
                         <div className='singular-skill'>
                             <div className='technology-experience'>
                                 <div className='technology'>
-                                    <label>CSS Frameworks (Bootstrap, Tailwind, Bulma)</label>
-                                    <p>5 years of experience</p>
+                                    <label>CSS Frameworks (Bootstrap, Tailwind)</label>
+                                    <p>6 years of experience</p>
                                 </div>
                                 <span className='experience'>High experience</span>
                             </div>
@@ -130,7 +130,7 @@ function Profile() {
                             <div className='technology-experience'>
                                 <div className='technology'>
                                     <label>Sass (SCSS Syntax/Indented Syntax)</label>
-                                    <p>5 years of experience</p>
+                                    <p>6 years of experience</p>
                                 </div>
                                 <span className='experience'>High experience</span>
                             </div>
@@ -140,7 +140,7 @@ function Profile() {
                             <div className='technology-experience'>
                                 <div className='technology'>
                                     <label>JavaScript</label>
-                                    <p>5 years of experience</p>
+                                    <p>6 years of experience</p>
                                 </div>
                                 <span className='experience'>High experience</span>
                             </div>
@@ -230,7 +230,7 @@ function Profile() {
                             <div className='technology-experience'>
                                 <div className='technology'>
                                     <label>Agile methodologies (Scrum)</label>
-                                    <p>4 years and six months of experience</p>
+                                    <p>4 years and 6 months of experience</p>
                                 </div>
                                 <span className='experience'>High experience</span>
                             </div>
@@ -271,20 +271,15 @@ function Profile() {
                         <div className="outer">
                             <div className="card">
                                 <div className="info">
-                                    <h3 className="title">2020 - 2021 (Remote)</h3>
-                                    <p className='company-name'>Designer and developer at <a href='https://taxisdonvasco.com/' target='_blank'>Taxis Don Vasco</a></p>
-                                    <p>
-                                        Design the company's website in Adobe XD. <br />
-                                        I carried out the implementation, development and web deployment. <br />
-                                        It is currently still a project in production. <br />
-                                    </p>
-                                    <p>-Implementing on-page SEO, I managed to place it at number 1 for taxis in the region in Google search results.</p>
+                                    <h3 className="title">2026 - Currently</h3>
+                                    <p className='company-name'>I’m available for new opportunities as a Frontend Developer</p>
+                                    <p>This is really exciting!</p>
                                 </div>
                             </div>
                             <div className="card">
                                 <div className="info">
                                     <h3 className="title">2021 - 2025 (Remote for Colombia)</h3>
-                                    <p className='company-name'>Frontend developer at <a href='https://iridian.co/' target='_blank'>Iridian</a></p>
+                                    <p className='company-name'>Frontend Developer at <a href='https://iridian.co/' target='_blank'>Iridian</a></p>
                                     <p>
                                         *Frontend Developer <br />
                                         -Projects development in Symfony environment. <br />
@@ -308,9 +303,14 @@ function Profile() {
                             </div>
                             <div className="card">
                                 <div className="info">
-                                    <h3 className="title">2026 - Currently</h3>
-                                    <p className='company-name'>I’m available for new opportunities as a Frontend Developer</p>
-                                    <p>This is really exciting!</p>
+                                    <h3 className="title">2020 - 2021 (Remote)</h3>
+                                    <p className='company-name'>Designer and Developer at <a href='https://taxisdonvasco.com.mx/' target='_blank'>Taxis Don Vasco</a></p>
+                                    <p>
+                                        Design the company's website in Adobe XD. <br />
+                                        I carried out the implementation, development and web deployment. <br />
+                                        It is currently still a project in production. <br />
+                                    </p>
+                                    <p>-Implementing on-page SEO, I managed to place it at number 1 for taxis in the region in Google search results.</p>
                                 </div>
                             </div>
                         </div>

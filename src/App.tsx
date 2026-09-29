@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar/Navbar';
 import Bubbles from './components/Bubbles/Bubbles';
 import BallFollower from './components/BallFollower/BallFollower';
+import Footer from './components/Footer/Footer';
 
 import { Routes, Route } from 'react-router-dom';
 import routes from './routes/routes';
@@ -26,6 +27,7 @@ function App() {
             />
           ))}
         </Routes>
+        <Footer />
     </>
   )
 }

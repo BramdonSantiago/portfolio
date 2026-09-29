@@ -42,6 +42,7 @@ function Portfolio() {
                         slideShadows: false,
                     }}
                     centeredSlides={true}
+                    autoHeight={true}
                     slidesPerView={1.3}
                     spaceBetween={0}
                     breakpoints={{
@@ -62,6 +63,7 @@ function Portfolio() {
                                 <span className='technology'>HTML</span>
                                 <span className='technology'>CSS</span>
                                 <span className='technology'>Sass</span>
+                                <span className='technology'>Responsive Design</span>
                                 <span className='technology'>Dark Mode</span>
                             </p>
                             <div className='content-btn'>
@@ -81,6 +83,7 @@ function Portfolio() {
                                 <span className='technology'>CSS</span>
                                 <span className='technology'>Sass</span>
                                 <span className='technology'>Bootstrap</span>
+                                <span className='technology'>Responsive Design</span>
                                 <span className='technology'>UI/UX Redesign</span>
                             </p>
                             <div className='content-btn'>
@@ -99,6 +102,7 @@ function Portfolio() {
                                 <span className='technology'>HTML</span>
                                 <span className='technology'>CSS</span>
                                 <span className='technology'>Sass</span>
+                                <span className='technology'>Responsive Design</span>
                                 <span className='technology'>UI/UX Redesign</span>
                                 <span className='technology'>Multi-Tenant Architecture</span>
                             </p>
@@ -112,13 +116,15 @@ function Portfolio() {
                             <img src="https://bramdonsantiago.github.io/portfolio/img/cervalle-mockup-min.png" alt="" loading='lazy' />
                             <h3>CERVALLE</h3>
                             <p className='description-platform'>
-                                Modern eCommerce platform focused on performance and user experience (UX), incorporating advanced animations, fluid transitions, and dynamic content loading.
+                                Modern eCommerce platform focused on performance and user experience (UX), incorporating advanced animations, fluid transitions, and dynamic content loading
                             </p>
                             <p className='tag-line'>
                                 <span className='technology'>React/Next.js</span>
+                                <span className='technology'>TypeScript</span>
                                 <span className='technology'>React Query + Axios</span>
                                 <span className='technology'>React Hook Form</span>
                                 <span className='technology'>CSS Modules</span>
+                                <span className='technology'>Responsive Design</span>
                                 <span className='technology'>Consuming RESTful APIs</span>
                                 <span className='technology'>Headless Architecture</span>
                             </p>
@@ -129,43 +135,52 @@ function Portfolio() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='singular-project'>
-                            <img src="https://bramdonsantiago.github.io/portfolio/img/vumi-mockup-min.png" alt="" loading='lazy' />
-                            <h3>Travel VIP App</h3>
+                            <img src="https://bramdonsantiago.github.io/portfolio/img/prodesa-mockup-min.png" alt="" loading='lazy' />
+                            <h3>Prodesa</h3>
                             <p className='description-platform'>
-                                Enterprise mobile application for an insurance company using Ionic.
+                                Mobile application for real estate management and buying/renting processes
                             </p>
                             <p className='tag-line'>
                                 <span className='technology'>Ionic</span>
                                 <span className='technology'>Capacitor</span>
                                 <span className='technology'>Angular</span>
                                 <span className='technology'>Standalone Components</span>
+                                <span className='technology'>TypeScript</span>
                                 <span className='technology'>Consuming RESTful APIs</span>
+                                <span className='technology'>Lazy loading</span>
                                 <span className='technology'>Headless Architecture</span>
-                                <span className='technology'>App available for dispositives iOS and Android</span>
+                                <span className='technology'>Cross-Platform</span>
+                                <span className='technology'>Pixel-Perfect Implementation · High Design Fidelity</span>
+                                <span className='technology'>App available for iOS and Android devices</span>
                             </p>
                             <div className='content-btn'>
-                                <a href="https://play.google.com/store/apps/details?id=co.iridian.travels.vumi&hl=es_MX" target='_blank' className='btn btn-outline-terteary'>Visit Store</a>
+                                <a href="https://play.google.com/store/apps/details?id=com.personal.prodesa_android&hl=es_MX" target='_blank' className='btn btn-outline-terteary'>Visit Store</a>
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='singular-project'>
-                            <img src="https://bramdonsantiago.github.io/portfolio/img/prodesa-mockup-min.png" alt="" loading='lazy' />
-                            <h3>Prodesa</h3>
+                            <img src="https://bramdonsantiago.github.io/portfolio/img/vumi-mockup-min.png" alt="" loading='lazy' />
+                            <h3>VUMI<sup>®</sup> Travel VIP App</h3>
                             <p className='description-platform'>
-                                Mobile application for real estate management and buying/renting processes, developed with Ionic.
+                                Enterprise mobile application for an insurance company
                             </p>
                             <p className='tag-line'>
                                 <span className='technology'>Ionic</span>
                                 <span className='technology'>Capacitor</span>
                                 <span className='technology'>Angular</span>
                                 <span className='technology'>Standalone Components</span>
+                                <span className='technology'>TypeScript</span>
                                 <span className='technology'>Consuming RESTful APIs</span>
+                                <span className='technology'>Lazy loading</span>
                                 <span className='technology'>Headless Architecture</span>
-                                <span className='technology'>App available for dispositives iOS and Android</span>
+                                <span className='technology'>Cross-Platform</span>
+                                <span className='technology'>i18n</span>
+                                <span className='technology'>Pixel-Perfect Implementation · High Design Fidelity</span>
+                                <span className='technology'>App available for iOS and Android devices</span>
                             </p>
                             <div className='content-btn'>
-                                <a href="https://play.google.com/store/apps/details?id=com.personal.prodesa_android&hl=es_MX" target='_blank' className='btn btn-outline-terteary'>Visit Store</a>
+                                <a href="https://play.google.com/store/apps/details?id=co.iridian.travels.vumi&hl=es_MX" target='_blank' className='btn btn-outline-terteary'>Visit Store</a>
                             </div>
                         </div>
                     </SwiperSlide>

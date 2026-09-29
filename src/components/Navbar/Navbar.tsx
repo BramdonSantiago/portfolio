@@ -9,16 +9,28 @@ function Navbar() {
             </div>
             <div className='navigation'>
                 <NavLink to="/about" className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>
-                    <i className='fa-solid fa-house'></i>
+                    <div className='icon-navigation'>
+                        <i className='fa-solid fa-house'></i>
+                    </div>
+                    <p className='navigation-text'>About</p>
                 </NavLink>
                 <NavLink to="/profile" className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>
-                    <i className='fa-solid fa-user'></i>
+                    <div className='icon-navigation'>
+                        <i className='fa-solid fa-user'></i>
+                    </div>
+                    <p className='navigation-text'>Profile</p>
                 </NavLink>
                 <NavLink to="/projects" className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>
-                    <i className='fa-solid fa-briefcase'></i>
+                    <div className='icon-navigation'>
+                        <i className='fa-solid fa-briefcase'></i>
+                    </div>
+                    <p className='navigation-text'>Portfolio</p>
                 </NavLink>
                 <NavLink to="/contact" className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>
-                    <i className="fa-regular fa-handshake"></i>
+                    <div className='icon-navigation'>
+                        <i className="fa-regular fa-handshake"></i>
+                    </div>
+                    <p className='navigation-text'>Contact</p>
                 </NavLink>
             </div>
         </nav>

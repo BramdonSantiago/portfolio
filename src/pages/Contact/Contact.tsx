@@ -20,7 +20,7 @@ function Contact() {
                     <div className='lets-keep-touch'>
                         <h3>Let's keep in touch:</h3>
                         <p><span>Email:</span> bramdsantiago@gmail.com</p>
-                        <p><span>Phone:</span> (+52) 4381338561</p>
+                        <p><span>Phone:</span> +52 438 133 8561</p>
                         <div className='gap-example'>
                             <audio controls>
                                 <source src="https://bramdonsantiago.github.io/portfolio/audio/audio-4.mp3" type="audio/mp3" />
