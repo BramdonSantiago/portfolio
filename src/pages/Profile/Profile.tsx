@@ -295,7 +295,7 @@ function Profile() {
                                         • Enhance UX and accessibility by proposing improvements in specific projects. <br />
                                     </p>
                                     <p>
-                                        Throughout my career, I’ve had the opportunity to work on significant projects for well-known companies such as 𝗢𝗫𝗫𝗢, 𝐇𝐞𝐞𝐥, Enovate, Vumi, Romance Relax, Prodesa, PayOli, Cervalle, TDT, and more recently, a new project called Rifeo, which is in the process of establishing itself. These projects have not only been essential for my professional development, but have also been key to the growth and success of the company I currently collaborate with.
+                                        Throughout my career, I’ve had the opportunity to work on significant projects for well-known companies such as 𝗢𝗫𝗫𝗢, 𝐇𝐞𝐞𝐥, Enovate, Vumi, MeUp, Romance Relax, Prodesa, PayOli, Cervalle, Mercados Delta, TDT Hamburguesas, Amolca, Four Lines Club, Paki & Lulu, Verde Limón, EQuatro, Clean It, Kokoriko and more recently, a new project called Rifeo / Rifu, which is in the process of establishing itself. These projects have not only been essential for my professional development, but have also been key to the growth and success of the company I currently collaborate with.
                                     </p>
                                     <p>-Experience with industry SaaS (Software as a Service), E-commerce, Transportation and logistics, Real estate, Healthcare eLearning, and Entertainment.</p>
                                     <p>At Iridian I collaborated on around 40 - 50 projects as a Frontend Developer.</p>
